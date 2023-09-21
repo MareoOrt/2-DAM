@@ -1,0 +1,15 @@
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.AssemblyInfoInputs.cache
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.AssemblyInfo.cs
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.csproj.CoreCompileInputs.cache
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\bin\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.exe
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\bin\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.deps.json
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\bin\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.runtimeconfig.json
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\bin\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.dll
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\bin\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.pdb
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.dll
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\refint\Evaluacion Inical - Mario Ortuñez Sanz.dll
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.pdb
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\Evaluacion Inical - Mario Ortuñez Sanz.genruntimeconfig.cache
+C:\Users\ortsanma\Desktop\Desarrollo de Interfaces\Evaluacion Inical - Mario Ortuñez Sanz\obj\Debug\net6.0\ref\Evaluacion Inical - Mario Ortuñez Sanz.dll
