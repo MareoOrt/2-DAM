@@ -1,0 +1,1 @@
+hint -> sirve para poner texto que al estar vacio el plaintext se pone, pero cuando el usuario escriba se quite
