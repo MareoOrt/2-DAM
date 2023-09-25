@@ -1,0 +1,13 @@
+Panorama desarrollo un analisis de los "titanes" de la industria del ERP: SAP, Oracle, Micrsoft, and Infor
+
+El test analizo la coleccion de respuesta que hizo Panorama entre Octubre de 2021 y Agosto de 2022. Los datos incluyen 142 responsables los cuales habian implementado recientemnete SAP, Oracle, Microsoft, o Infor en sus sistemas empresariales de organizacion. El analisis esta basado en una variedad de soluciones ofrecidas para estos 4 vendedores.
+
+Los cuatro titanes son consideras los "Tier 1" entre los vendedores de ERP. Esto significa que estos vendedores ofrecen una oferta insignia a las empresas con mas de 75o millones de $ como ingreso anual. Muchas de estas compañies de estos sitios tienen procesos complejos o complejidad en torno a la consolidadcion y gestion de empresas.
+
+Mientras que estos proveedores se dirigen a organizaciones de tamaño emprendedor, elllos solo tienen sistemas adecuados a una variedad de tamaños de empresa. Una vista previa de estos vendedores aqui:
+SAP
+Los consumidores de SAP son normalmente empresas emprendedoras y empresas de medio mercado. SAP se caracteriza por poder ser desplegado en una nube privada o publica, o en un hibrido.
+Oracle
+Oracle provee un set de aplicaiones nucle(core) tan buenas como aplicaciones especificas de la industria. El vendedor tiene un set comprensivo de opciones en la nube, incluidas la nube publica, del consumidor o on-premises (instalacion para cada equipos).
+Microsoft 
+Las opciones del software de empresa de Microsoft incluyen una gran variedad de soluciones dentro de su Dynamics 365 ofrecido. Microsoft esta constantemente desarrollando nuevos centros data para solucionar la compatibilidad en la nube al rededor de su set de soluciones
