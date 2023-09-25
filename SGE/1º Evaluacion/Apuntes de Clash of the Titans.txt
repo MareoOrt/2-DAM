@@ -2,12 +2,63 @@ Panorama desarrollo un analisis de los "titanes" de la industria del ERP: SAP, O
 
 El test analizo la coleccion de respuesta que hizo Panorama entre Octubre de 2021 y Agosto de 2022. Los datos incluyen 142 responsables los cuales habian implementado recientemnete SAP, Oracle, Microsoft, o Infor en sus sistemas empresariales de organizacion. El analisis esta basado en una variedad de soluciones ofrecidas para estos 4 vendedores.
 
+Vista previa de los de vendedores
 Los cuatro titanes son consideras los "Tier 1" entre los vendedores de ERP. Esto significa que estos vendedores ofrecen una oferta insignia a las empresas con mas de 75o millones de $ como ingreso anual. Muchas de estas compañies de estos sitios tienen procesos complejos o complejidad en torno a la consolidadcion y gestion de empresas.
 
 Mientras que estos proveedores se dirigen a organizaciones de tamaño emprendedor, elllos solo tienen sistemas adecuados a una variedad de tamaños de empresa. Una vista previa de estos vendedores aqui:
-SAP
+o SAP
 Los consumidores de SAP son normalmente empresas emprendedoras y empresas de medio mercado. SAP se caracteriza por poder ser desplegado en una nube privada o publica, o en un hibrido.
-Oracle
+o Oracle
 Oracle provee un set de aplicaiones nucle(core) tan buenas como aplicaciones especificas de la industria. El vendedor tiene un set comprensivo de opciones en la nube, incluidas la nube publica, del consumidor o on-premises (instalacion para cada equipos).
-Microsoft 
-Las opciones del software de empresa de Microsoft incluyen una gran variedad de soluciones dentro de su Dynamics 365 ofrecido. Microsoft esta constantemente desarrollando nuevos centros data para solucionar la compatibilidad en la nube al rededor de su set de soluciones
+o Microsoft 
+Las opciones del software de empresa de Microsoft incluyen una gran variedad de soluciones dentro de su Dynamics 365 ofrecido. Microsoft esta constantemente desarrollando nuevos centros data para solucionar la compatibilidad en la nube al rededor de su set de soluciones.
+o Infor
+El interes de Infor esta puesto en las industrias especializadas en soluciones ERP, las cuales son diseñadas por niveles, y negocios pequeños o medios. Estas soluciones son basadas en una nube de multiples inquilinos.
+Panorama no estaba afiliada a niniguna de las empresas.
+
+Vista previa de los encuestados: 1.5 billones de $ de media anual de ingresos, 6500 trabajadores trabajando de media, 64.1% porcentaje del las organizaciones multinacionales.
+
+Industry Breakdown
+1º Manufacturadores
+2ª Informadores de tecnologia
+3º Cuidado de la salud
+
+Tipos de proyectos
+Hay una gran variedad tipos de proyectos que implican software de empresa. Los tres mas famosos:
+
+- Implementacion de ERP: una tecnologia centrada en el proyecto
+- Tecnologia de BI habilitado: un proyecto que involucra procesos de rediseño con sistemas habilitacion.
+- Neoscios de transformacion digital: un proyecto que aprovecha las tecnologias digtales para crea un nuevo modelo de negocio digital.
+
+Nosostros preguntamos encuestados los cuales el mejor tipo de proyecto describia estos proyectos.
+
+Los negoscios de transformacion digital son mas comunes entre los consumidores de Microsoft
+En nuestra experiencia, muchos clientes son visto con la tecnologia Microsoft numerosamente. Esto incluye no justamente productos de 365 ERP pero Azure, Dynamics Sales y Marketing (para aumentar la participación de los clientes), PowerBI (para mejorar los analisis y vision economica), y herraminetas PowerBI ( con codigo bajo para incrementar su configuracion y personalizacion de capacidades).
+
+La negoscios de transformacion digital menos comunes entre los consumidores de Infor
+Nosotros hemos encontrado que los clientes de Infor estan empezando a entender la importancia de la actualizacion de sus sistemas para incrementar y mejorar sus huellas funcionales.Tan como eso es su prioridad, sus proyectos deben ser considerados implementaciones de ERP. Infor ha hecho mejoras significantesd mejoras para su especificacion industrial de soluciones ERP, los cuales han habilitado a el vendedor una mejor servicio de requerimiento de los consumidores con su solucion de nucleos y su rapido y asegurado tiempo de ejecucion.
+
+o ERP Implementacion : Infor, SAP, Microsoft, Oracle
+o Tecnologia de BI habilitado : Oracle, Infor, SAP, Microsoft
+o Neoscios de transformacion digital: Microsoft, Oracle, SAP, Infor
+
+Funciones de negocio incluidas
+Los sistemas ERP pueden automatizar una variedad de funciones de negocio. Muchas organizaciones añaden funcionalidades en varias fases del proyecto.
+
+Nosotros preguntamos a encuestados que funciones de negocio incluirian en sus proyecto. Los encuestados pueden seleccionar comunmenter funciones de negocio como finanzas y contabilidad, control del capital humano y control de la cadena de suministros.
+
+Un enfoque de las funcionalidades de el Warehouse y control del inventario son mas comunes entre los consumidores de Infor
+Los consumidores de Infor son los mas vistos eleigiendo esta solucion al ERP en la actualidad y futuro. Lo mas destacado de ellos es que habia cuestiones de la cadena de suministros que manifestaban como adminsitraacion de los cambios de inventario. Las funcionalidades de Infor son designadas a optimizar los cumplimientos de pedido, optimizacion del inventario, y las previsiones.
+
+Un enfoque de las funcionalidades de Administracion de los activos de la empresa son mas comunes entre los consumidores de SAP
+Los encuestados de SAP eran fuertemente representados en industrias de capital alto como aceite y gas, farmaceuticos, comida y bebida, y automoviles. En estas industrias, la criticidad del activo fisico, mantenimiento predecible y la consistencia y suministro fiable hace EAM una funcion de prioridad alta para la implementacion.
+
+Realizacion de beneficios
+Antes de empezar algunos proyectos, las organizaciones deben desarrollar un plan de beneficios que defina los beneficios especificos del negocio que desean lograr. Usando claves que indican el rendimiento, las organizaciones pueden medir su progreso hasta lograr sus beneficios.
+Nosotros preguntamos que beneficios son cuantificados antes de implementalos en los terminos de ciertas categorias, como Cantidad de inventario y experiencia del cliente. Si un encuestado inicialmente cuantificaba beneficios en una cierta categoria e indicaba que ellos tenian una fase del proyecto durante el resto del año, nosotros preguntamos ellos si ellos habian recibido el/los beneficio/s en una categoria.
+Para encontrar el promedio de beneficios realizados de los clientes de cada vendedor, nosotro calculamso el porcentaje de respuestas que completaron sus expectativa de beneficios en cada categoria y ellos promediaban todo aquellos porcentajes de consumidores de SAP, Oracle, Microsoft e Infor.
+
+Los consumidores de SAP son los que mas suelen lograr todos los beneficios de su lista de beneficios
+Los encuestados de SAP, en promedio, vienen de compañias con gran nuemero de empleados. Muchos de estos encuestados prepararon calculos de ROI antes de las compras  e implementaciones. El esfuerzo de cuantificar los beneficios antes de 
+lo esperado en una mejor ERP o proyectos de trasnformacion permite a las empresas mdeir los beneficios realizados, mejor administracion de sus proyectos y centralizar en valores de creacion criticos.
+
