@@ -10,4 +10,40 @@ Los consumidores de SAP son normalmente empresas emprendedoras y empresas de med
 Oracle
 Oracle provee un set de aplicaiones nucle(core) tan buenas como aplicaciones especificas de la industria. El vendedor tiene un set comprensivo de opciones en la nube, incluidas la nube publica, del consumidor o on-premises (instalacion para cada equipos).
 Microsoft 
-Las opciones del software de empresa de Microsoft incluyen una gran variedad de soluciones dentro de su Dynamics 365 ofrecido. Microsoft esta constantemente desarrollando nuevos centros data para solucionar la compatibilidad en la nube al rededor de su set de soluciones
+Las opciones del software de empresa de Microsoft incluyen una gran variedad de soluciones dentro de su Dynamics 365 ofrecido. Microsoft esta constantemente desarrollando nuevos centros data para solucionar la compatibilidad en la nube al rededor de su set de soluciones.
+
+Coste del proyecto
+Mientras las organizaciones quieren conseguir el maximo de beneficios realizadas,no deben gastar mas en los proyetcos que tengan un ROI negativo a largo plazo. Esto significa, que el coste alto de los proyectos no es una señal de sobregasto siempre y cuando la organizacion se de a tiempo para conseguir beneficios que cubran estos costes.
+
+Nosostros preguntamos a encuestados para estimar el gasto total de todos las fases de proyectos completadas.
+
+Organizaciones que completaron las implemntaciones en un producto de Info gasto lo maximo de su proyectos
+La informacion proviene de u na gran porcion delos consumidors de Infor que presentaron respuestas de que eran nuevos clientes de Infor. Lo mas costoso era un esperado y natural  del pago de las licencias, implementacion, entrenamineto y coste de recursos. Mas, la gran mayoria se movio de on-premise a base en la nube, el cual tipicamente requiere usuarios adicionalmente entrenados. Por suerte, esos costes eran compensados con una mejora en la flexibilidad, funcionalidad y experiencia de usuario.
+
+Organizaciones que completaron las implemntaciones en un producto de SAP gasto lo minimo de su proyectos
+Los encuestados de SAP tenian un largo numero de clientes meviendose desde versiones pasadas en SAP, (tanto como R3 y ECC) a S/4HANA. La familiaridad de los clientes con SAP, las conversiones de dinero para licencias previas y las herrmainetas migratorias abiertas ayudo a contener costes para estas empresas. Con el aumento de la nueva digitalizacion en nucleos, nosotros expreabamos ver mucha mas de esas conversiones en un futuro.
+
+El primer grafico describe el coste promedio de los proyectos por cada vendedor. Normalizando el coste base en la media denumero de licencias pagadas nos llea a diferentes figuras como vemos en el segundo grafico
+Project Cost: SAP,Oracle e Infor, y Microsoft
+Normalized Project Cost: Infor, Microsoft, Oracle, y SAP
+
+Duracion del proyecto
+Mientra que es natural querer ROI tan pronto como sea posible, ir a lo seguro es uan de las rutas de poryecto que falla. El loco proceso esta forrado con actividades que requieren meses y algunas veces años en completarse.
+Nosotros preguntamos a los encuestados que estimacion le dan a la duracion total de completar todos las fases del proyecto.
+
+La organnizacion que completo la inplementacion con productos de Infor, gasto mas tiempo en sus proyectos
+Como indico el coste de datos, muchos de los encuestados de Infor, son nuevos clientes que estan pasando por una implemnetacion completa. Incluso con la metodologia establecida de Infor, estos tipos de proyectos incluyen extensos diseños, configuraciones, probados y capacitacion, y asi tomar tiempo significativamente para ser completados. Otro razon del largo tiempo puede ser que la mayoira de estos encuestados son de empresas de manufacuracion que requieren un largo alcance de funcionalidad.
+
+La organnizacion que completo la inplementacion con productos de SAP, gasto menos tiempo en sus proyectos
+Nuestros datos revelaron que los poryectos SAP centrados fundamentalmente en evolucionar a las nuevas versiones de el producto. SAP ha esforzado significativamiente, en el tiempo y recursos de su migracion de herraminetas, y se nota cuando miras el coste y tiempo dedicado a estos proyectos. En nuestraexperiencia, algunos clientes usan actualizaciones como una oportunidad de 
+abandonar las personlizaciones viejas y adoptar funciones iniciales en el nuevo sistema. Esto reduce las implementaciones y el tiempo de testeo.
+
+El primer grafico describe la media de duracion de los proyecos por cada vendedor. Nomralizando esta duracion basada en la media de numeros de licencias compradas nos lleva a diferentea figuras como las que vemos en la segunda grafica
+
+Duracion del proyecto: Infor, Microsoft, SAP, Oracle.
+Duracion del proyecto normalizada: Infor, Microsoft, Oracle, SAP
+
+Conclusiones
+Es uno de estos vendedores correcto para ti? El unico camino a descubrir es evaluar el estado actual de tu tecnologia y datos, y entonces definir los obejtivos corporativos y una informacion estartegica de completar estos objetivos. Esto te ayudara a determinar tu estado afuturo y decidir que tecnologia es necesaria para conseguirlo.
+SAP, Oracle, Microsoft e Infor cada uno tiene una variedad de productos buenos que pueden solucionar la decision de hacer movimiento de datos, pero debed entender el tipo de datainputs que necesitas y el inidcador de rendimineto clave te ayudara en tu camino.
+Los preguntantes de ERP de Panorama pueden ayudarte a determinar y tus objeticos, especialmente cuya realizacion de datos y analisis. Nosotros sabemos que los sistemas de empresas de hoy son designadas a hacer mucho mas que una transaccion automatica, y nosotros queremos asegurar que tu realices el potencial total de estos sistemas robustos.
