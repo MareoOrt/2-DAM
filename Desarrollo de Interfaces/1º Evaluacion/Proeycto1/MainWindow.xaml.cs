@@ -66,7 +66,7 @@ namespace Proeycto1
             String actTBK = ""; 
             foreach (String letter in letters)
             {
-                if (letter.Equals(letra))
+                if (letter.Equals(letra, StringComparison.OrdinalIgnoreCase))
                 {
                     actTBK = actTBK + letra + " ";
                 }
@@ -75,6 +75,7 @@ namespace Proeycto1
                     actTBK = actTBK + "- ";
                 }
             }
+            tbkPalabra.Text = actTBK;
         }
     }
 }

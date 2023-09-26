@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_9">9</string>
+    <string name="igual">=</string>
+    <string name="seis">6</string>
+    <string name="cinco">5</string>
+    <string name="siete">7</string>
+    <string name="rest">-</string>
+    <string name="sum">+</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="ejer01_calculadora">Ejer01_Calculadora</string>
+</resources>
