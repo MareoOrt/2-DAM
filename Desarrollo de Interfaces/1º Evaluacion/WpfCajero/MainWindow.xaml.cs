@@ -7,6 +7,7 @@ namespace WpfCajero
 {
     public partial class MainWindow : Window
     {
+
         private Dictionary<int, int> billetesDisponibles = new Dictionary<int, int>
         {
             { 200, 10 },
@@ -146,6 +147,14 @@ namespace WpfCajero
             foreach (var billete in billetesRetirados)
             {
                 billetesDisponibles[billete]++;
+            }
+        }
+
+        private void BotonesOnOff(bool estados)
+        {
+            foreach (UIElement item in ((Grid)this.Content).Children)
+            {
+                if(item is Button) item.isEnabled = estado; 
             }
         }
     }

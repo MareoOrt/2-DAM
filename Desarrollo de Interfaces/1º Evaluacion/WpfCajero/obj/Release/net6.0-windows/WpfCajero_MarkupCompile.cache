@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Release\net6.0-windows\
 WpfCajero
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\App.xaml
 11407045341
 
