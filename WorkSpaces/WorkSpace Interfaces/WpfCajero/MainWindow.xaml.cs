@@ -64,9 +64,7 @@ namespace WpfCajero
 
         private bool comprobarPin()
         {
-            // Agrega tu lógica de autenticación aquí
-            // Puedes usar una base de datos o algún otro método seguro
-            return cadenaPin.Equals("1234"); // Por ejemplo, PIN 1234
+            return cadenaPin.Equals("1234"); 
         }
 
         private void botonBorrar_Click(object sender, RoutedEventArgs e)
@@ -103,8 +101,7 @@ namespace WpfCajero
 
         private void RealizarRetiro()
         {
-            // Agrega lógica para realizar el retiro de dinero y ajustar la cantidad de billetes disponibles
-            // Asegúrate de validar la cantidad disponible antes de realizar el retiro
+            
         }
 
         private void ActualizarListaBilletes()
