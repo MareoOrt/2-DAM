@@ -1,0 +1,8 @@
+Ejercicio 1.Se desea que entre cuatro procesos se contabilice sincronizadamente y en orden hasta 20000. 
+Mostrar un listado según van contando mostrando el nombre de proceso que contabiliza y el número en el que se llegan. 
+Cuando lleguen a 5000 individualmente cada proceso finalizará.
+Por otro lado previamente el proceso principal habrá creado al iniciar el programa 
+un nuevo proceso llamado Cronometro que se encargará de contabilizar los segundos que pasan desde 
+que inicia la aplicación hasta que finaliza (aproximadamente, con hacer un Thread.sleep(1000),
+ incrementamos una unidad en un contador que supuestamente mide los segundos suficiente). 
+Cuando todos los procesos hayan finalizado el proceso padre matará al cronómetro y mostrara cuántos segundos han transcurrido.
