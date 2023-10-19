@@ -1,0 +1,14 @@
+package Ejericicio3;
+
+public class Proceso implements Runnable {
+
+	private int contador;
+	
+	@Override
+	public void run() {
+		
+	}
+	
+	
+
+}

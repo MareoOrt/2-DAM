@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Ejercicio1</servlet-name>
+  	<display-name>Ejercicio1</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios1.Ejercicio1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio1_3</servlet-name>
+  	<display-name>Ejercicio1_3</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios1.Ejercicio1_3</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio1_2</servlet-name>
+  	<display-name>Ejercicio1_2</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios1.Ejercicio1_2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio2</servlet-name>
+  	<display-name>Ejercicio2</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios1.Ejercicio2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio1</servlet-name>
+  	<url-pattern>/Ejercicio1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio1_3</servlet-name>
+  	<url-pattern>/Ejercicio1_3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio1_2</servlet-name>
+  	<url-pattern>/Ejercicio1_2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio2</servlet-name>
+  	<url-pattern>/Ejercicio2</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="package Ejericicios;&#x0D;&#x0A;&#x0D;&#x0A;import java.util.Scanner;&#x0D;&#x0A;&#x0D;&#x0A;public class EjercicioConcurrenciaBasica {&#x0D;&#x0A;&#x09;&#x0D;&#x0A;//&#x09;&#x09;1. EJERCICIO CONCURRENCIA BÁSICA&#x0D;&#x0A;//&#x09;&#x09;Pedir al usuario hasta qué número queremos contar, de cuánto en cuánto y cuántos procesos &#x0D;&#x0A;//&#x09;&#x09;vamos a utilizar para ello, y por último mostrar cuántas veces ha contado cada uno de los &#x0D;&#x0A;//&#x09;&#x09;procesos. Implementarlo. &#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;&#x0D;&#x0A;&#x09;private void inicial() {&#x0D;&#x0A;&#x09;&#x09;// TODO Auto-generated method stub&#x0D;&#x0A;Scanner sc = new Scanner(System.in);&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;System.out.println(&quot;Hasta que numero quieres llegar?&quot;);&#x0D;&#x0A;&#x09;&#x09;int numeroFinal = sc.nextInt();&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;System.out.println(&quot;de cuanto en cuanto?&quot;);&#x0D;&#x0A;&#x09;&#x09;int intervalCont = sc.nextInt();&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;System.out.println(&quot;Y cuantos procesos?&quot;);&#x0D;&#x0A;&#x09;&#x09;int nProcess = sc.nextInt();&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="120"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="714"/>
+			<item value="285"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="391"/>
+			<item key="DIALOG_Y_ORIGIN" value="39"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

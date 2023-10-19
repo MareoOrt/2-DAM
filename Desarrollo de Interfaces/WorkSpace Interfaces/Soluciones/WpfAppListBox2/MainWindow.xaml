@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfAppListBox2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppListBox2"
+        mc:Ignorable="d"
+        Title="LISTAS-2" Height="480" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="SelectionMode.Extended" 
+                   HorizontalAlignment="Center" Margin="0,50"/>
+        <TextBlock Text="SelectionMode.Extended" Grid.Column="2"
+                   HorizontalAlignment="Center" Margin="0,50"/>
+
+        <ListBox x:Name="lbox1" 
+                     Grid.Column="0"
+                     Height="300" Width="150" Background="#FFA5EEB5" 
+                 SelectionMode="Extended">
+        </ListBox>
+
+        <ListBox x:Name="lbox2" SelectionMode="Extended"
+                     Grid.Column="2"
+                     Height="300" Width="150" Background="#FFACE0EC" />
+        <Button x:Name="botonCargar" Content="&#9759; cargar lista" 
+                Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                Padding="0,10" 
+                FontSize="16"
+                Click="botonCargar_Click" FontFamily="Agency FB"/>
+        <Button x:Name="botonMover" Content="&#9755; mover selec." 
+                Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                Padding="0,10" Margin="0,150"
+                FontSize="32"
+                Click="botonMover_Click"/>
+        <Button x:Name="botonRecup" Content="&#9754; recup. selec." 
+                Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" 
+                Padding="0,10" Margin="0,250,0,0"
+                FontSize="32"
+                Click="botonRecup_Click"/>
+
+    </Grid>
+</Window>

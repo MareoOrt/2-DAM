@@ -1,0 +1,11 @@
+package Proceso;
+
+public class Proceso implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

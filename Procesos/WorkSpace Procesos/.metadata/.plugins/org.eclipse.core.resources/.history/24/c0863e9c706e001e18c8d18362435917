@@ -1,0 +1,41 @@
+package Ejericicio3;
+
+import java.util.Scanner;
+
+public class Ejericicio3 {
+	/*
+	 * 3. EJERCICIO . GRUPOS Y PRIORIDADES Pedir al usuario número de procesos a
+	 * crear, contamos sincronizadamente entre todos ellos, teniendo en cuenta que
+	 * el mínimo número de procesos será 2, y el primero de ellos estará en un único
+	 * grupo y con prioridad mínima, y resto de procesos creados tendrá prioridad
+	 * máxima en otro grupo. Analizar si el proceso de prioridad mínima cuenta menos
+	 * veces que alguno de los procesos de prioridad máxima.
+	 */
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int nProcess = 0
+		
+		try {
+			System.out.println("Cuantos procesos deseas hacer?");
+			nProcess = sc.nextInt();
+		}catch (Exception e) {
+			throw e;
+		}
+		
+		if(nProcess<=1) {
+			System.err.println("Lo siento solo se permite un minimo de 2 procesoso.");
+		}else {
+			ThreadGroup tg = new ThreadGroup("grupo1");
+			ThreadGroup tg2 = new ThreadGroup("grupo2");
+			
+			Proceso proceso1 = new Proceso(1+"", tg1);
+			
+			for (int i = 0; i < nProcess; i++) {
+								
+			}
+				
+		}
+	}
+}

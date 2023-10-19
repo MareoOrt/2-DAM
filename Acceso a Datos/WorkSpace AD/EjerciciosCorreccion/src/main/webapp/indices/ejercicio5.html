@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DATOS MATRICULA</title>
+</head>
+<body>
+<form action="Ejercicio5" method="post">
+	  <fieldset>
+			<legend><b>DATOS MATRICULA</b></legend>
+        <table>
+            <tr>
+                <td><label for="asignatura">Asignatura/s: </label></td>
+                <td colspan="3"><select multiple name="asignatura">
+                    <option>Matematicas</option>
+                    <option>Literatura</option>
+                    <option>Ingles</option>
+                    <option>Tecnologia</option>
+                  </select></td>
+            </tr>
+            <tr>
+                <td><label for="sexo">Sexo: </label></td>
+                <td><input type="radio" name="sexo" value="Hombre">Hombre</td>
+                <td colspan="2"><input type="radio" name="sexo" value="Mujer">Mujer</td>
+            </tr>
+            <tr>
+                <td><label for="actividades">Actividades extraescolares: </label></td>
+                <td><input type="checkbox" name="actividades" value="musica">Musica</td>
+                <td><input type="checkbox" name="actividades" value="futbol">Futbol</td>
+                <td><input type="checkbox" name="actividades" value="teatro">Teatro</td>
+            </tr>
+            <tr>
+                <td colspan="4"><input type="submit" name ="Enviar" value="Enviar"></td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+</body>
+</html>
