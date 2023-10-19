@@ -15,13 +15,13 @@
     <fullyQualifiedTypeName name="EjerciciosExam.Contador"/>
     <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="EjerciciosExam.Proceso"/>
     <fullyQualifiedTypeName name="Ejemplo2.Proceso"/>
     <fullyQualifiedTypeName name="java.nio.charset.IllegalCharsetNameException"/>
     <fullyQualifiedTypeName name="Proceso.ProcesoRunneable"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Ejericicio3.Proceso"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

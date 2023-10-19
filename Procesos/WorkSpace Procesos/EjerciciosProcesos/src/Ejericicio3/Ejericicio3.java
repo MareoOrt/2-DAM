@@ -1,5 +1,6 @@
 package Ejericicio3;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ejericicio3 {
@@ -22,23 +23,33 @@ public class Ejericicio3 {
 			ThreadGroup tg = new ThreadGroup("gtupoTotal");
 			
 			ThreadGroup tg1 = new ThreadGroup(tg, "grupo1");
-			ThreadGroup tg2 = new ThreadGroup("grupo2");
+			ThreadGroup tg2 = new ThreadGroup(tg, "grupo2");
 			
-			Proceso p1 = new Proceso(1+"", tg1);
-			
-			for (int i = 0; i < nProcess; i++) {
-								
-				Proceso p = new Proceso(i+"", tg2);
+			ArrayList<Proceso> processList =  new ArrayList<Proceso>();
+			Proceso p1 = new Proceso("Proceso1", tg1);
+			p1.getProceso().setPriority(Thread.MIN_PRIORITY);
+			processList.add(p1);
+			for (int i = 2; i < nProcess; i++) {
+				processList.add(new Proceso("Proceso"+i, tg2));
 			}
 			
 			int contador = 0;
+			int c1= 0;
+			int ctotal = 0;
 			
 			do {
-				synchronized (tg) {
-					
+				for (Proceso proceso : processList) {
+					synchronized (tg) {
+						proceso.run();
+						if(proceso.getProceso().getName().equals("Proceso1")) {
+							c1++;
+						}
+					}
+					ctotal ++;
 				}
+				contador ++;
 			} while (contador < 100);
-				
+			System.out.println("El proceso 1 salio " + c1 + " veces sobre " + ctotal);
 		}
 	}
 }
