@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenusContxt</string>
+    <string name="opcion1">Opcion 1</string>
+    <string name="opcion2">Opcion 2</string>
+    <string name="opcion3">Opcion 3</string>
+    <string name="opcion4">Opcion 4</string>
+    <string name="opcion5">Opcion 5</string>
+    <string name="opcion6">Opcion 6</string>
+</resources>

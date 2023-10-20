@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuOption1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/opcion1" />
+    <item
+        android:id="@+id/menuOpcion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/opcion2" />
+    <item
+        android:id="@+id/menuOpcion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/opcion3" />
+    <group
+        android:id="@+id/menuGrupo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/menuOption4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/opcion4" />
+        <item
+            android:id="@+id/menuOpcion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/opcion5" />
+        <item
+            android:id="@+id/menuOption6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/opcion6" />
+    </group>
+</menu>
