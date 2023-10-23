@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ejercicio2</string>
+    <string-array name="provincias">
+        <item>León</item>
+        <item>Burgos</item>
+        <item>Palencia</item>
+        <item>Soria</item>
+        <item>Segovia</item>
+        <item>Salamanca</item>
+        <item>Zamora</item>
+        <item>Valladolid</item>
+    </string-array>
+</resources>

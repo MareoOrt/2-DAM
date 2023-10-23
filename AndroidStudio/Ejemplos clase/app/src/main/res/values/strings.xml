@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Button</string>
+    <string name="radiobutton">RadioButton</string>
+    <string-array name="ciudades">
+        <item>Valladolid</item>
+        <item>Burgos</item>
+        <item>Leon</item>
+        <item>Salamanca</item>
+    </string-array>
+</resources>
