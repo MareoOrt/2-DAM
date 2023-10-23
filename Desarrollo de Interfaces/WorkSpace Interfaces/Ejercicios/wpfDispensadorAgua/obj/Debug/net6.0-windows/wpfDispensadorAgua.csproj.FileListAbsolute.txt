@@ -1,0 +1,5 @@
+C:\Users\ortsanma\Documents\Proyectos de VS\wpfDispensadorAgua\obj\Debug\net6.0-windows\wpfDispensadorAgua.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\wpfDispensadorAgua\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ortsanma\Documents\Proyectos de VS\wpfDispensadorAgua\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ortsanma\Documents\Proyectos de VS\wpfDispensadorAgua\obj\Debug\net6.0-windows\wpfDispensadorAgua_MarkupCompile.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\wpfDispensadorAgua\obj\Debug\net6.0-windows\wpfDispensadorAgua_MarkupCompile.lref

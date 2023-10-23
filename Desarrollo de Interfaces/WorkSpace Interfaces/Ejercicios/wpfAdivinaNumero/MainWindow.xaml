@@ -1,0 +1,41 @@
+﻿<Window x:Class="wpfAdivinaNumero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfAdivinaNumero"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="124*" />
+            <ColumnDefinition Width="45*" />
+            <ColumnDefinition Width="43*" />
+            <ColumnDefinition Width="93*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="40*" />
+            <RowDefinition Height="220*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Name="PanelDigitos" Orientation="Horizontal" Grid.ColumnSpan="4">
+            <Button Content="0" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot0" />
+            <Button Content="1" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot1" />
+            <Button Content="2" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot2" />
+            <Button Content="3" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot3" />
+            <Button Content="4" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot4" />
+            <Button Content="5" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot5" />
+            <Button Content="6" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot6" />
+            <Button Content="7" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot7" />
+            <Button Content="8" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot8" />
+            <Button Content="9" FontStretch="Normal" Margin="5" Padding="5" Click="Button_Click" Name="bot9" />
+        </StackPanel>
+
+        <TextBlock Name="TbPropuesto" Grid.Column="0" Grid.Row="1" Margin="5" Background="#FFEFE574" FontSize="24" />
+        <Button Name="BotComprobar" Content="?" Grid.Row="1" Grid.Column="1" Margin="5" Padding="5" Click="BotComprobar_Click" />
+        <Button Name="BotCancelar" Content="X" Grid.Row="1" Grid.Column="2" Margin="5" Padding="5" Click="BotCancelar_Click" />
+        <Button Name="BotOtro" Content="otro número" Grid.Row="1" Grid.Column="3" Margin="5" Padding="5" Click="BotOtro_Click" />
+        <ListBox x:Name="LbHistorial" Grid.Row="2" Margin="5" Grid.ColumnSpan="4" Background="LightGreen"/>
+    </Grid>
+</Window>

@@ -1,0 +1,41 @@
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero_MarkupCompile.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero_MarkupCompile.lref
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.exe
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.deps.json
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.runtimeconfig.json
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.dll
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.pdb
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.g.resources
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.AssemblyInfoInputs.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.AssemblyInfo.cs
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.csproj.CoreCompileInputs.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.dll
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\refint\WpfCajero.dll
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.pdb
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.genruntimeconfig.cache
+C:\Users\ortsanma\Documents\Proyectos de VS\WpfCajero\obj\Debug\net6.0-windows\ref\WpfCajero.dll
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero_MarkupCompile.cache
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero_MarkupCompile.lref
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.dll
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\refint\WpfCajero.dll
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.pdb
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.exe
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.deps.json
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.runtimeconfig.json
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.dll
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\bin\Debug\net6.0-windows\WpfCajero.pdb
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.g.resources
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.AssemblyInfoInputs.cache
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.AssemblyInfo.cs
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.csproj.CoreCompileInputs.cache
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\WpfCajero.genruntimeconfig.cache
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\1º Evaluacion\WpfCajero\obj\Debug\net6.0-windows\ref\WpfCajero.dll

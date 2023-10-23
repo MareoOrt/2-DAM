@@ -1,0 +1,44 @@
+package Ejericicio3;
+
+import java.util.Scanner;
+
+public class Ejericicio3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int nProcess = 0;
+		
+		try {
+			System.out.println("Cuantos procesos deseas hacer?");
+			nProcess = sc.nextInt();
+		}catch (Exception e) {
+			throw e;
+		}
+		
+		if(nProcess<=1) {
+			System.err.println("Lo siento solo se permite un minimo de 2 procesoso.");
+		}else {
+			ThreadGroup tg = new ThreadGroup("gtupoTotal");
+			
+			ThreadGroup tg1 = new ThreadGroup(tg, "grupo1");
+			ThreadGroup tg2 = new ThreadGroup("grupo2");
+			
+			Proceso p1 = new Proceso(1+"", tg1);
+			
+			for (int i = 0; i < nProcess; i++) {
+								
+				Proceso p = new Proceso(i+"", tg2);
+			}
+			
+			int contador = 0;
+			
+			do {
+				synchronized (tg1) {
+					
+				}
+			} while (contador < 100);
+				
+		}
+	}
+}
