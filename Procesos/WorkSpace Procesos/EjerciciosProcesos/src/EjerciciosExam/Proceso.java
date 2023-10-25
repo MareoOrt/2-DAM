@@ -1,16 +1,16 @@
 package EjerciciosExam;
 
-import java.util.concurrent.ThreadFactory;
-
-public class Proceso extends ThreadFactory {
+public class Proceso extends Thread {
 
 	private Contador contador = new Contador(0);
 	
+	/*
 	@Override
 	public Thread newThread(Runnable r) {
 		return null;
 	}
-
+	 */
+	
 	public Contador getContador() {
 		return contador;
 	}

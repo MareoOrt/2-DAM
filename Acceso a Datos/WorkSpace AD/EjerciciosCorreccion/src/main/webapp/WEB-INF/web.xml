@@ -82,6 +82,30 @@
   	<description></description>
   	<servlet-class>Ejercicios1.Ejercicio2c</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio3_1</servlet-name>
+  	<display-name>Ejercicio3_1</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejercicio3_1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejericico3_2</servlet-name>
+  	<display-name>Ejericico3_2</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejericico3_2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejericico3_3</servlet-name>
+  	<display-name>Ejericico3_3</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejericico3_3</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio3_3b</servlet-name>
+  	<display-name>Ejercicio3_3b</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejercicio3_3b</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Ejercicio1</servlet-name>
   	<url-pattern>/Ejercicio1</url-pattern>
@@ -133,5 +157,21 @@
   <servlet-mapping>
   	<servlet-name>Ejercicio2c</servlet-name>
   	<url-pattern>/Ejercicio2c</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio3_1</servlet-name>
+  	<url-pattern>/Ejercicio3_1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejericico3_2</servlet-name>
+  	<url-pattern>/Ejericico3_2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejericico3_3</servlet-name>
+  	<url-pattern>/Ejericico3_3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio3_3b</servlet-name>
+  	<url-pattern>/Ejercicio3_3b</url-pattern>
   </servlet-mapping>
 </web-app>

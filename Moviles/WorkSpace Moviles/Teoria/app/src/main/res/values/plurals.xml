@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="edad">
+        <item quantity="zero"> ho has nacido aun</item>
+        <item quantity="one"> tienes %1d año</item>
+        <item quantity="other"> tienes %1d añoa</item>
+    </plurals>
+</resources>

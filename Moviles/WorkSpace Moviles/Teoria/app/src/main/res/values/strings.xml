@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ejem10_StrignDinamicosYPlurales</string>
+    <string name="saludo">Buenos dias %1s,</string>
+</resources>
