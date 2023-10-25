@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="Panel superior"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:id="@+id/id_central"
+        android:layout_width="match_parent"
+        android:layout_height="596dp"
+        android:background="#F44336"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Panel central"
+            android:textColor="#FFEB3B"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:id="@+id/id_inferior"
+            android:layout_width="match_parent"
+            android:layout_height="494dp"
+            android:background="#673AB7"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Panel inferior"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/tvCoordenadas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coordenadas"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

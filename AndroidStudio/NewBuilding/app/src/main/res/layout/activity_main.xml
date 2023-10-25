@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="persona"
+            type="com.example.newbuilding.Usuario"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/id_Nombre_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduce tu nombre"
+            android:inputType="text"
+            android:text="@{persona.nombre}"/>
+
+        <EditText
+            android:id="@+id/id_Edad_EditNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduce tu edad"
+            android:inputType="number"
+            android:text="@{persona.edad}"/>
+
+        <EditText
+            android:id="@+id/id_Contrasena_EditPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduce la contraseña"
+            android:inputType="textPassword"
+            android:text="@{persona.contrsena}"/>
+
+        <Button
+            android:id="@+id/id_Guardar_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
+</layout>
