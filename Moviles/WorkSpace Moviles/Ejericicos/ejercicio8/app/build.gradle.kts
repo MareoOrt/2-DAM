@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ejercicio_7_onlongclicklistener"
+    namespace = "com.example.ejercicio8"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ejercicio_7_onlongclicklistener"
+        applicationId = "com.example.ejercicio8"
         minSdk = 34
         targetSdk = 34
         versionCode = 1

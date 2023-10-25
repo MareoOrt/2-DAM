@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfMercaGoya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfMercaGoya"
+        mc:Ignorable="d"
+        Title="Market" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        <ControlTemplate x:Key="ButtonTemplate1" TargetType="{x:Type Button}">
+            <Grid>
+                <Ellipse Width="20" Height="20" Fill="Crimson"/>
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lbTicket" Grid.RowSpan="2" Background="LightGray" FontFamily="Consolas"/>
+        <ListBox x:Name="lbArticulos" Grid.Column="1" Background="LightSalmon" Margin="10" SelectionChanged="lbArticulos_SelectionChanged"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
+            <Button x:Name="botNuevo" Content="Nuevo" Margin="5" Width="80" Click="botNuevo_Click"/>
+            <Button x:Name="botCerrar" Content="Cerrar" Margin="5" Width="80" Click="botCerrar_Click"/>
+            <TextBox x:Name="tbEntrega" Margin="5" Width="80" Background="ForestGreen" Foreground="White" Text=""
+                     TextAlignment="Center" VerticalContentAlignment="Center" FontSize="24" BorderThickness="5"/>
+            <Button x:Name="botCambio" Content="Cambio" Margin="5" Width="80" Click="botCambio_Click"/>
+            <Button Template="{DynamicResource ButtonTemplate1}" x:Name="botResumen" Margin="5" 
+                    Content="R" Foreground="White" FontWeight="ExtraBold"
+                    Click="botResumen_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
