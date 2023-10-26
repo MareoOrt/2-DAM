@@ -106,6 +106,24 @@
   	<description></description>
   	<servlet-class>Ejercicios3.Ejercicio3_3b</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio3_4</servlet-name>
+  	<display-name>Ejercicio3_4</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejercicio3_4</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio3_5</servlet-name>
+  	<display-name>Ejercicio3_5</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejercicio3_5</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio3_7</servlet-name>
+  	<display-name>Ejercicio3_7</display-name>
+  	<description></description>
+  	<servlet-class>Ejercicios3.Ejercicio3_7</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Ejercicio1</servlet-name>
   	<url-pattern>/Ejercicio1</url-pattern>
@@ -173,5 +191,17 @@
   <servlet-mapping>
   	<servlet-name>Ejercicio3_3b</servlet-name>
   	<url-pattern>/Ejercicio3_3b</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio3_4</servlet-name>
+  	<url-pattern>/Ejercicio3_4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio3_5</servlet-name>
+  	<url-pattern>/Ejercicio3_5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio3_7</servlet-name>
+  	<url-pattern>/Ejercicio3_7</url-pattern>
   </servlet-mapping>
 </web-app>

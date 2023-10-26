@@ -85,8 +85,8 @@ public class Ejericico3_3 extends HttpServlet {
 			response.getWriter().append(
 					"<h1>Bienvenido a Web Libreria. Usted seleccionó " + request.getParameter("list") + "</h1>");
 		} else {
-			response.getWriter().append("<h1>No se han seleccionado ningun libro</h1>");
-			response.getWriter().append("<p><a href='Ejercicio3_3'>Seguir comprando</a></p>")
+			response.getWriter().append("<h1>No se han seleccionado ningun libro</h1>")
+			.append("<p><a href='Ejercicio3_3'>Seguir comprando</a></p>")
 					.append("<p><a href='Ejercicio3_3b'>Ver compra</a></p>");
 		}
 		response.getWriter().append("</html></body>");
