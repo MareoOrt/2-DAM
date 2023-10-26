@@ -1,5 +1,0 @@
-package Proceso;
-
-public interface PRunneable extends Runnable {
-
-}
