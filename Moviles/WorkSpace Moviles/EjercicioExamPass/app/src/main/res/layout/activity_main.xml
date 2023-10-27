@@ -21,10 +21,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btOff"
+            android:id="@+id/btOffOn"
             style="@style/Widget.AppCompat.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="btOffClicked"
             android:text="OFF" />
 
         <TableLayout
@@ -60,7 +61,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="Edad" />
 
                 <EditText
                     android:id="@+id/etEdad"
@@ -81,10 +82,10 @@
                     android:layout_height="wrap_content"
                     android:text="Ciudad:" />
 
-                <ListView
-                    android:id="@+id/lvCiudades"
+                <Spinner
+                    android:id="@+id/spProvincias"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="wrap_content" />
 
             </TableRow>
 

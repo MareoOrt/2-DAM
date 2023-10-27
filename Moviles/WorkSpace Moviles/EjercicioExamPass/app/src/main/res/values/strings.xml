@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">EjercicioExamPass</string>
+    <!--Lista de provincias-->
+    <string-array name="provincias">
+        <item>Ávila</item>
+        <item>Burgos</item>
+        <item>León</item>
+        <item>Palencia</item>
+        <item>Salamanca</item>
+        <item>Segovia</item>
+        <item>Soria</item>
+        <item>Valladolid</item>
+        <item>Zamora</item>
+    </string-array>
 </resources>
