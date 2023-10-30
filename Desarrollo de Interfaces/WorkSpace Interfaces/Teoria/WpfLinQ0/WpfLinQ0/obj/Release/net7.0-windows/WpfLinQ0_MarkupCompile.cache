@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfLinQ0\WpfLinQ0\obj\Debug\net7.0-windows\
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfLinQ0\WpfLinQ0\obj\Release\net7.0-windows\
 WpfLinQ0
 none
 false
-TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+TRACE;RELEASE;NET;NET7_0;NETCOREAPP
 C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfLinQ0\WpfLinQ0\App.xaml
 11407045341
 
