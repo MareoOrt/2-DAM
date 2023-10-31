@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfAppLinqCSV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppLinqCSV"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListBox x:Name="lbEmpleados" Grid.ColumnSpan="2" Panel.ZIndex="1"/>
+        <ListView Name="lvResultados" Background="LightGreen" Grid.ColumnSpan="2" Panel.ZIndex="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nombre" Width="80" 
+                                    DisplayMemberBinding="{Binding Nombre}" />
+                    <GridViewColumn Header="Apellidos" Width="120" 
+                                    DisplayMemberBinding="{Binding Apellidos}" />
+                    <GridViewColumn Header="Fecha de nacimiento" Width="120" 
+                                    DisplayMemberBinding="{Binding FechaNacimiento,StringFormat={}{0:d},ConverterCulture=es-ES}" />
+                    <GridViewColumn Header="Edad" Width="80" 
+                                    DisplayMemberBinding="{Binding Edad}" />
+                    <GridViewColumn Header="Departamento" Width="100" 
+                                    DisplayMemberBinding="{Binding Departamento}" />
+                </GridView>
+            </ListView.View>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}" Foreground="Blue"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+        <Button Content="ListBox" Grid.Row="1" Margin="6" Click="Button_Click" />
+        <Button Content="ListView" Grid.Row="1" Grid.Column="1" Margin="6" Click="Button_Click_1"/>
+    </Grid>
+</Window>

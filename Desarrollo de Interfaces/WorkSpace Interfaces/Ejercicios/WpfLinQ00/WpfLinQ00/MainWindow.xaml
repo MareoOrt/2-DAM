@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <!--ocultar ListView para ver el resultado de los 5 primeros ejemplos-->
+        <!--comentario-->
+        <ListView Name="lvVehiculos" Visibility="Visible">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Matrícula" Width="100" 
+                                    DisplayMemberBinding="{Binding Matricula}" />
+                    <GridViewColumn Header="Modelo" Width="400" 
+                                    DisplayMemberBinding="{Binding Modelo}" />
+                </GridView>
+            </ListView.View>
+
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}"/>
+                            <!--Name hace referencia a la propiedad .Name de la propiedad de agrupación(en este caso Nombre)-->
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+
         <TextBlock 
             x:Name="tb1"
             HorizontalAlignment="Center" 

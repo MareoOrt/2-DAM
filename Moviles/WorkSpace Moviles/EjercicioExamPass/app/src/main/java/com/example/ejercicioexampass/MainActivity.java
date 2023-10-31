@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     // Variable lista de personas
     private List<Persona> personList = new ArrayList<>();
 
-    //Clase de personas
+    // Clase de personas
     public class Persona {
         private String nombre;
         private int edad;

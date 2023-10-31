@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejercicio_Exam2</string>
+    <string name="titulo">Ejercicio 1. Examen Android</string>
+    <string name="nombre">Nombre:</string>
+    <string name="insertasNombre">Inserte nombre</string>
+    <string name="sexo">Sexo:</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="btañadir">Añadir</string>
+    <string name="menu">Mostrar lista</string>
+    <string name="total">Hay un tal de </string>
+</resources>

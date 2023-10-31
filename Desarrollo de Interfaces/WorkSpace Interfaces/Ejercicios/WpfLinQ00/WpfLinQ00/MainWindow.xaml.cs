@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
+using System.Windows.Data;
 
 namespace WpfLinQ00
 {
@@ -18,6 +19,7 @@ namespace WpfLinQ00
             // Ejemplo3();
             // Ejemplo4();
             // Ejemplo5();
+            // Ejemplo6();
         }
 
         private void Ejemplo1()
@@ -129,6 +131,15 @@ namespace WpfLinQ00
                 };
 
             String g = "";
+
+            lvVehiculos.Visibility = Visibility.Visible;
+            //Llenar el ListView con el resultado
+            lvVehiculos.ItemsSource = resultado;
+            //Agrupar el resultado en el ListView
+            CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(lvVehiculos.ItemsSource);
+            PropertyGroupDescription groupDescription = new PropertyGroupDescription("Nombre");
+            view.GroupDescriptions.Add(groupDescription);
+
             foreach (VistaPropietarios item in resultado)
             {
                 if(item.Nombre != g)
@@ -139,6 +150,32 @@ namespace WpfLinQ00
                 tb1.Text += $"\t\t{item.Matricula} \t {item.Modelo}\n";
             }
 
+        }
+
+        private void Ejemplo6()
+        {
+            List<Persona> personas;
+            List<Vehiculo> vehiculos;
+
+            CargarColecciones(out personas, out vehiculos);
+
+            var resultado =
+                from v in vehiculos
+                join p in personas on v.DniPropietario equals p.Dni
+                group v by p.NombreCompleto into grupo
+                orderby grupo.Count() descending                
+                select new 
+                {
+                    Nombre = grupo.Key,
+                    Total = grupo.Count()
+                };
+
+            tb1.Text = $"{"NOMBRE",-40}TOTAL\n";
+
+            foreach (var item in resultado)
+            {
+                tb1.Text += $"{item.Nombre.PadRight(40, '.')}({item.Total,+3:000}\n";
+            }
         }
 
         public static void CargarColecciones(out List<Persona> personas, out List<Vehiculo> vehiculos)

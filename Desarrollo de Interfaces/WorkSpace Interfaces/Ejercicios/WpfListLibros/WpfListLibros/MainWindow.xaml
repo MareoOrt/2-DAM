@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfListLibros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfListLibros"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListView Name="lvVehiculos" Visibility="Visible" Background=144, 238,144>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ISBN" Width="100" 
+                                    DisplayMemberBinding="{Binding Matricula}" />
+                    <GridViewColumn Header="Título" Width="400" 
+                                    DisplayMemberBinding="{Binding Modelo}" />
+                    <GridViewColumn Header="Autor" Width="150" 
+                                    DisplayMemberBinding="{Binding Modelo}" />
+                    <GridViewColumn Header="Precio" Width="100" 
+                                    DisplayMemberBinding="{Binding Modelo}" />
+                </GridView>
+            </ListView.View>
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontSize="14" Text="{Binding Name}"/>
+                            <!--Name hace referencia a la propiedad .Name de la propiedad de agrupación(en este caso Nombre)-->
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
+        </ListView>
+    </Grid>
+</Window>
