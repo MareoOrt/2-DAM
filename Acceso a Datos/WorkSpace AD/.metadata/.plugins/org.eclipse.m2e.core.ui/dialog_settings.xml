@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\Teoria\src\main\java\EjemConcurrencias\EjemConcurrencias.java"/>
 			<item value="C:\Users\ortsanma\Documents\EclipseWorkspace AD\Servers"/>
 			<item value="C:\Users\ortsanma\Documents\EclipseWorkspace AD\Teoria\src\main\java\Ejemplos\Ejemplo8.java"/>
 			<item value="C:\Users\ortsanma\Documents\EclipseWorkspace AD\Ejercicios\src\main\webapp\index3.jsp"/>
@@ -28,10 +29,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.gf.AD_EJER_V_Sincronizacion_de_procesos"/>
 		</list>
 		<list key="groupId">
+			<item value="com.gf"/>
 		</list>
 		<list key="artifactId">
+			<item value="AD_EJER_V_Sincronizacion_de_procesos"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

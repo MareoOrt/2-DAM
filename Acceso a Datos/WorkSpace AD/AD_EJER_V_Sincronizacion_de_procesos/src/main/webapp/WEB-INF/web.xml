@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio1</display-name>
+    <servlet-name>Ejercicio1</servlet-name>
+    <servlet-class>ejercicio1.Ejercicio1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio1</servlet-name>
+    <url-pattern>/Ejercicio1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio</display-name>
+    <servlet-name>Ejercicio</servlet-name>
+    <servlet-class>ejercicio1.Ejercicio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio</servlet-name>
+    <url-pattern>/Ejercicio</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio1b</display-name>
+    <servlet-name>Ejercicio1b</servlet-name>
+    <servlet-class>ejercicio1.Ejercicio1b</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio1b</servlet-name>
+    <url-pattern>/Ejercicio1b</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio2</display-name>
+    <servlet-name>Ejercicio2</servlet-name>
+    <servlet-class>ejercicio2.Ejercicio2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio2</servlet-name>
+    <url-pattern>/Ejercicio2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejercicio3</display-name>
+    <servlet-name>Ejercicio3</servlet-name>
+    <servlet-class>ejercicio3.Ejercicio3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejercicio3</servlet-name>
+    <url-pattern>/Ejercicio3</url-pattern>
+  </servlet-mapping>
+</web-app>

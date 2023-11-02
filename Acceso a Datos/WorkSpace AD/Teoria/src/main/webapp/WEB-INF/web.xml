@@ -1,47 +1,54 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
-<web-app>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>Ejemplo8</servlet-name>
-  	<display-name>Ejemplo8</display-name>
-  	<description></description>
-  	<servlet-class>Ejemplos.Ejemplo8</servlet-class>
+    <description></description>
+    <display-name>Ejemplo8</display-name>
+    <servlet-name>Ejemplo8</servlet-name>
+    <servlet-class>Ejemplos.Ejemplo8</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>Teoria9</servlet-name>
-  	<display-name>Teoria9</display-name>
-  	<description></description>
-  	<servlet-class>Teoria9</servlet-class>
+    <description></description>
+    <display-name>Teoria9</display-name>
+    <servlet-name>Teoria9</servlet-name>
+    <servlet-class>Teoria9</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>Ejemplo10a</servlet-name>
-  	<display-name>Ejemplo10a</display-name>
-  	<description></description>
-  	<servlet-class>Ejemplos.Ejemplo10a</servlet-class>
+    <description></description>
+    <display-name>Ejemplo10a</display-name>
+    <servlet-name>Ejemplo10a</servlet-name>
+    <servlet-class>Ejemplos.Ejemplo10a</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>Ejemplo10b</servlet-name>
-  	<display-name>Ejemplo10b</display-name>
-  	<description></description>
-  	<servlet-class>Ejemplos.Ejemplo10b</servlet-class>
+    <description></description>
+    <display-name>Ejemplo10b</display-name>
+    <servlet-name>Ejemplo10b</servlet-name>
+    <servlet-class>Ejemplos.Ejemplo10b</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>Ejemplo8</servlet-name>
-  	<url-pattern>/Ejemplo8</url-pattern>
+    <servlet-name>Ejemplo8</servlet-name>
+    <url-pattern>/Ejemplo8</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>Teoria9</servlet-name>
-  	<url-pattern>/Teoria9</url-pattern>
+    <servlet-name>Teoria9</servlet-name>
+    <url-pattern>/Teoria9</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>Ejemplo10a</servlet-name>
-  	<url-pattern>/Ejemplo10a</url-pattern>
+    <servlet-name>Ejemplo10a</servlet-name>
+    <url-pattern>/Ejemplo10a</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>Ejemplo10b</servlet-name>
-  	<url-pattern>/Ejemplo10b</url-pattern>
+    <servlet-name>Ejemplo10b</servlet-name>
+    <url-pattern>/Ejemplo10b</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EjemConcurrencias</display-name>
+    <servlet-name>EjemConcurrencias</servlet-name>
+    <servlet-class>EjemConcurrencias.EjemConcurrencias</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EjemConcurrencias</servlet-name>
+    <url-pattern>/EjemConcurrencias</url-pattern>
   </servlet-mapping>
 </web-app>

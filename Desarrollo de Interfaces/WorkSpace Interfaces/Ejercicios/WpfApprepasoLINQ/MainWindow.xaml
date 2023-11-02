@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApprepasoLINQ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApprepasoLINQ"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="7*"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="1.5*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<ListBox x:Name="lbResultados" Background="AliceBlue" />
+		<StackPanel Orientation="Vertical" Margin="10" Grid.Column="1">
+			<Button Content="Mejores puntuaciones (where >80, OrderBy)" Click="Button_Click"/>
+			<Button Content="Mejores puntuaciones (método)" Click="Button_Click_1"/>
+			<Button Content="Mejores puntuaciones (mostrar clientes)" Click="Button_Click_2" />
+			<Button Content="Mejores puntuaciones (en cadena)" Click="Button_Click_4"/>
+			<Button Content="Mejores puntuaciones (suma del total de compras)"/>
+			<Button Content="Mejores puntuaciones"/>
+			<Button Content="Mejores puntuaciones"/>
+			<Button Content="Mejores puntuaciones"/>
+			<Button Content="Mejores puntuaciones"/>
+			<Button Content="Mejores puntuaciones"/>
+			<Button Content="Mejores puntuaciones"/>
+		</StackPanel>
+	</Grid>
+</Window>

@@ -1,0 +1,41 @@
+D:\source\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.exe
+D:\source\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.deps.json
+D:\source\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.runtimeconfig.json
+D:\source\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.dll
+D:\source\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.pdb
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\App.g.cs
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ_MarkupCompile.cache
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ_MarkupCompile.lref
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\MainWindow.baml
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.g.resources
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.AssemblyInfoInputs.cache
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.AssemblyInfo.cs
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.csproj.CoreCompileInputs.cache
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.dll
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\refint\WpfApprepasoLINQ.dll
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.pdb
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.genruntimeconfig.cache
+D:\source\WpfApprepasoLINQ\obj\Debug\net7.0-windows\ref\WpfApprepasoLINQ.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.exe
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.deps.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.runtimeconfig.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\bin\Debug\net7.0-windows\WpfApprepasoLINQ.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ_MarkupCompile.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ_MarkupCompile.lref
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.g.resources
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.AssemblyInfoInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.AssemblyInfo.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.csproj.CoreCompileInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\refint\WpfApprepasoLINQ.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\WpfApprepasoLINQ.genruntimeconfig.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfApprepasoLINQ\obj\Debug\net7.0-windows\ref\WpfApprepasoLINQ.dll
