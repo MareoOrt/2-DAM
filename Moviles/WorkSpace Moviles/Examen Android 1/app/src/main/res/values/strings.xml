@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OrtunezMario</string>
+    <string name="tvNombre">Inserte Nombre</string>
+    <string name="tvCalificaicon">Inerte Calificación</string>
+    <array name="spCalificaciones">
+        <item>"Suspenso"</item>
+        <item>"Aprobado"</item>
+        <item>"Sobresaliente"</item>
+    </array>
+    <plurals name="calificaciones">
+        <item quantity="zero">"No tiene ninguno" + nota</item>
+        <item quantity="one">"Tiene 1" + nota</item>
+        <item quantity="other">"Tiene " + cant + " de " + nota</item>
+    </plurals>
+</resources>
