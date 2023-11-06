@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfListSocios\WpfListSocios\obj\Debug\net7.0-windows\
+C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfListSocios\WpfListSocios\obj\Release\net7.0-windows\
 WpfListSocios
 none
 false
-TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+TRACE;RELEASE;NET;NET7_0;NETCOREAPP
 C:\Users\mario\OneDrive\Documentos\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\WpfListSocios\WpfListSocios\App.xaml
 11407045341
 
