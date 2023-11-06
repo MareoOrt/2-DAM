@@ -6,29 +6,30 @@
         xmlns:local="clr-namespace:WpfApprepasoLINQ"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-	<Grid>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="7*"/>
-			<RowDefinition Height="*"/>
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="*"/>
-			<ColumnDefinition Width="1.5*"/>
-			<ColumnDefinition Width="*"/>
-		</Grid.ColumnDefinitions>
-		<ListBox x:Name="lbResultados" Background="AliceBlue" />
-		<StackPanel Orientation="Vertical" Margin="10" Grid.Column="1">
-			<Button Content="Mejores puntuaciones (where >80, OrderBy)" Click="Button_Click"/>
-			<Button Content="Mejores puntuaciones (método)" Click="Button_Click_1"/>
-			<Button Content="Mejores puntuaciones (mostrar clientes)" Click="Button_Click_2" />
-			<Button Content="Mejores puntuaciones (en cadena)" Click="Button_Click_4"/>
-			<Button Content="Mejores puntuaciones (suma del total de compras)"/>
-			<Button Content="Mejores puntuaciones"/>
-			<Button Content="Mejores puntuaciones"/>
-			<Button Content="Mejores puntuaciones"/>
-			<Button Content="Mejores puntuaciones"/>
-			<Button Content="Mejores puntuaciones"/>
-			<Button Content="Mejores puntuaciones"/>
-		</StackPanel>
-	</Grid>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lbResultados" Background="AliceBlue" />
+        <StackPanel Orientation="Vertical" Margin="10" Grid.Column="1">
+            <Button Content="Mejores puntuaciones (where >80, OrderBy)" Click="Button_Click"/>
+            <Button Content="Mejores puntuaciones (método)" Click="Button_Click_1"/>
+            <Button Content="Mejores puntuaciones (mostrar clientes)" Click="Button_Click_2" />
+            <Button Content="Mejores puntuaciones (en cadena)" Click="Button_Click_4"/>
+            <Button Content="Mejores puntuaciones (suma del total de compras)" Click="Button_Click_5"/>
+            <Button Content="Mejores puntuaciones (mostrar localidad y usuarios con ruptura)" Click="Button_Click_6"/>
+            <Button Content="Mejores puntuaciones (total compras)" Click="Button_Click_7"/>
+            <Button Content="Mejores puntuaciones (detalle de pedidos)" Click="Button_Click_8"/>
+            <Button Content="Mejores puntuaciones"/>
+            <Button Content="Mejores puntuaciones"/>
+            <Button Content="Mejores puntuaciones"/>
+        </StackPanel>
+        <TextBlock x:Name="tbResultados" HorizontalAlignment="Center" TextWrapping="Wrap" Background="Orange" VerticalAlignment="Top" Height="54" Width="208" Margin="0,370,0,0" Grid.RowSpan="2"/>
+    </Grid>
 </Window>

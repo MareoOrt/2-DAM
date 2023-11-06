@@ -74,9 +74,9 @@ namespace WpfApprepasoLINQ
             var ConsultasClientes = from cliente in Datos.GetClientes()
                                     select new
                                     {
-                                        Indice = ++1,
-                                        Nombre = Cliente.Nombre,
-                                        TotalCompras = $"{Cliente.TotalResultado:C2}"
+                                        Indice = +1,
+                                        Nombre = cliente.Nombre,
+                                        TotalCompras = $"{cliente.TotalCompras:C2}"
                                     };
 
             // MostrarResultado(ConsultasClientes);
@@ -98,12 +98,73 @@ namespace WpfApprepasoLINQ
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            Double TotalCuentas = Datos.GetClientes().Sumz<Cliente>(char => char.TotalCompras);
-            Double Total = (from c in Datps.GetClientes()
+            Double TotalCuentas = Datos.GetClientes().Sum<Cliente>(c => c.TotalCompras);
+            Double Total = (from c in Datos.GetClientes()
                             select c.TotalCompras).Sum();
 
             tbResultados.Text = TotalCuentas.ToString("C") + "<=>" + Total.ToString("C");
         }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            var ConsultaAgrupada = (from c in Datos.GetClientes()
+                                    group c by c.Localidad);
+
+            lbResultados.Items.Clear();
+            // en el foreach string es la localidad
+            // es decir la key del diccionario con el resultado de la consulta
+            foreach (IGrouping<string, Cliente> grupo in ConsultaAgrupada)
+            {
+                lbResultados.Items.Add(grupo.Key);
+                foreach (Cliente cliente in grupo)
+                {
+                    lbResultados.Items.Add($"\t{cliente.Nombre}");
+                }
+            }
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            lbResultados.Items.Clear();
+
+            var r = (from c in Datos.GetClientes()
+                     group c by c.Localidad into localidad
+                     select new
+                     {
+                         Localidad = localidad.Key,
+                         Total = localidad.Sum<Cliente>(l => l.TotalCompras)
+                     }).OrderByDescending(x => x.Total);
+
+            foreach (var cl in r)
+            {
+                lbResultados.Items.Add($"{cl.Localidad,-10}\t{cl.Total,+12:C}");
+            }
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            lbResultados.Items.Clear();
+
+            Datos d = new Datos();
+            var r = (from p in d.GetPedidos()
+                     from c in Datos.GetClientes().Contains()
+                     let clie =
+                     group p by p.IdCliente into a
+                     select new
+                     {
+                         clie = c.
+                     });
+
+            foreach (var item in r)
+            {
+                lbResultados.Items.Add(item.);
+                foreach (Cliente cliente in grupo)
+                {
+                    lbResultados.Items.Add($"\t{cliente.Nombre}");
+                }
+            }
+        }
+
         #endregion
 
     }
@@ -183,7 +244,7 @@ namespace WpfApprepasoLINQ
                 }
             };
         }
-        private List<Articulo> GetArticulos()
+        public List<Articulo> GetArticulos()
         {
             return new List<Articulo>()
             {
@@ -193,7 +254,7 @@ namespace WpfApprepasoLINQ
                 new Articulo {IdArticulo=4, Descripcion="artículo cuatro",Precio=40}
             };
         }
-        private List<Pedido> GetPedidos()
+        public List<Pedido> GetPedidos()
         {
             return new List<Pedido>()
             {
