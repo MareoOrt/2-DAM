@@ -1,0 +1,27 @@
+1.- Empezamos iendo a la tabla de proveedores y le damos al boton nuevo de arriba a la izquierda, y finalmente insertamos todos los datos quedando tal que asi:
+(Fotos de la ficha del proveedor)
+
+2.- Accedemos a la tabla de pagos y le damos a nuevo para crear un nuevo termino de pago, rellenandolo con los datos del pago. 
+(Foto de los pagos)
+Destacar que habria que entrar a nº de plazo y definir los dos plazos (uno de 15 y el siguiente a los siguientes 15).
+(Foto de dentro de nº de plazos)!!!
+Haciendo que no se tenga que poner el nº de dias maximo hasta la fecha de vencimiento, porque no es de 1 plazo.
+Y por ultimo, como en el ejercicio anterior creamos un nuevo proveedor con los datos que se nos da, metiendo el metodo de pago creado anteriormente.
+(Fotos de la creacion del proveedor)
+
+3.- Igual que el ejercicio anterior. creamos el termino de pago y el proveedor.
+(Foto de los pagos)
+(Fotos ficha del proveedor)
+(Hacer lo del 7%)!!!
+
+4.- Para empezar, creamos una oferta de los productos que nos dicen para el proveedor que nos dicen.
+(Fotos de la oferta)
+Ya que la oferta ha sido aceptada, creamos su correspondiente pedido dando al boton en Acciones llamado "Convertir en pedido".
+(Foto del boton de convertir)
+Dandonos este pedido (el nº de factura del proveedor lo asigne despues de hacer las capturas, como comprobacion esta que si no se le asigna Dynamics no te permite continuar con las operaciones):
+(Foto del pedido)
+Y como el pedido tambien fue aceptado le damos al boton de Registrar o F9, que nos abrira una pantalla. Como suponemos que se finalizo toda la operacion seleccionamos "Recibir y factura".
+(Foto de minipanel de recibir y/o factura)
+Finalmente comprobamos el saldo.
+(Foto del saldo)
+Y si clicamos podemos ir a movimientos del proveedor donde se ve como la factura que hicimos aparece.
