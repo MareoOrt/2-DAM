@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejem12_CosntraintLayout</string>
+    <string name="nombre">Nombre</string>
+    <string name="boton">Grabar</string>
+    <string name="bt1">Boton 1</string>
+    <string name="bt2">Boton 2</string>
+    <string name="bt3">Boton 3</string>
+</resources>

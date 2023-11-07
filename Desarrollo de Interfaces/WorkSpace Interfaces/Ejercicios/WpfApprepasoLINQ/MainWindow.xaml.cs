@@ -145,26 +145,66 @@ namespace WpfApprepasoLINQ
         {
             lbResultados.Items.Clear();
 
-            Datos d = new Datos();
-            var r = (from p in d.GetPedidos()
-                     from c in Datos.GetClientes().Contains()
-                     let clie =
-                     group p by p.IdCliente into a
+            var r = (from p in Datos.GetPedidos()
+                     join c in Datos.GetClientes() on p.IdCliente equals c.IdCliente
+                     join a in Datos.GetArticulos() on p.IdArticulo equals a.IdArticulo
                      select new
                      {
-                         clie = c.
+                         Pedido = p.IdPedido,
+                         Fecha = p.Fecha,
+                         Cliente = c.Nombre,
+                         Descripcion = a.Descripcion,
+                         Cantidad = p.Cantidad,
+                         Importe = a.Precio * p.Cantidad,
+                         Localidad = c.Localidad
+                     } into consulta
+                     group consulta by new
+                     {
+                         consulta.Localidad,
+                         consulta.Cliente
                      });
 
-            foreach (var item in r)
+            foreach (var grupo in r)
             {
-                lbResultados.Items.Add(item.);
-                foreach (Cliente cliente in grupo)
+                lbResultados.Items.Add($"{grupo.Key.Cliente} ({grupo.Key.Localidad})");
+                foreach (var fila in grupo)
                 {
-                    lbResultados.Items.Add($"\t{cliente.Nombre}");
+
+                    lbResultados.Items.Add($"\t{fila.Fecha,35:D}:{fila.Importe,10:C}");
                 }
             }
         }
 
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            lbResultados.Items.Clear();
+
+            var r = (from p in Datos.GetPedidos()
+                     join c in Datos.GetClientes() on p.IdCliente equals c.IdCliente
+                     join a in Datos.GetArticulos() on p.IdArticulo equals a.IdArticulo
+                     select new
+                     {
+                         p.IdCliente,
+                         c.Nombre,
+                         Importe = a.Precio * p.Cantidad,
+                     } into consulta
+                     group consulta by consulta.IdCliente into grupo
+                     select new 
+                     {
+                         Id=grupo.Key,
+                         Cliente = grupo.First(g => g.IdCliente == grupo.Key),
+                         NombreCliente = grupo.Select(x => x.Nombre).First(),
+                         // Value = grupo.ToArray(),
+                         Total = grupo.Sum(g => g.Importe)
+
+                     });
+
+            foreach (var cliente in r)
+            {
+                lbResultados.Items.Add($"{cliente.NombreCliente} " +
+                    $"({cliente.Cliente.Nombre}) = {cliente.Total}");
+            }
+        }
         #endregion
 
     }
@@ -244,7 +284,7 @@ namespace WpfApprepasoLINQ
                 }
             };
         }
-        public List<Articulo> GetArticulos()
+        public static List<Articulo> GetArticulos()
         {
             return new List<Articulo>()
             {
@@ -254,7 +294,7 @@ namespace WpfApprepasoLINQ
                 new Articulo {IdArticulo=4, Descripcion="artículo cuatro",Precio=40}
             };
         }
-        public List<Pedido> GetPedidos()
+        public static List<Pedido> GetPedidos()
         {
             return new List<Pedido>()
             {

@@ -26,7 +26,7 @@
             <Button Content="Mejores puntuaciones (mostrar localidad y usuarios con ruptura)" Click="Button_Click_6"/>
             <Button Content="Mejores puntuaciones (total compras)" Click="Button_Click_7"/>
             <Button Content="Mejores puntuaciones (detalle de pedidos)" Click="Button_Click_8"/>
-            <Button Content="Mejores puntuaciones"/>
+            <Button Content="Mejores puntuaciones (totalizar importes de pedidos)" Click="Button_Click_9"/>
             <Button Content="Mejores puntuaciones"/>
             <Button Content="Mejores puntuaciones"/>
         </StackPanel>
