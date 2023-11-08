@@ -25,8 +25,10 @@ public class Ejercicio1 extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html");
+		response.getWriter().append("<html><body><h2>Introducir Tarea</h2><form action='Ejercicio1' method='post'>")
+		.append("<input type='text' name='descripcion'>")
+		.append("</form></body></html>");
 	}
 
 	/**
