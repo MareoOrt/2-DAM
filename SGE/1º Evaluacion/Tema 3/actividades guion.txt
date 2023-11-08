@@ -1,7 +1,41 @@
-1.- Empezamos iendo a la tabla de proveedores y le damos al boton nuevo de arriba a la izquierda, y finalmente insertamos todos los datos quedando tal que asi:
+1. Creación de proveedores 
+Crea un nuevo proveedor con la siguiente información:
+Nombre proveedor: Lamper Distribution
+Dirección: Southside, 1 CP:DK – 5800 Población: Nyborg
+Cód. país: DK
+Teléfono: 23 15 97 84
+Persona de contacto: A Vinther-Wahl
+Código comprador: BH
+Grupo contable negocio: UE
+Grupo contable IVA negocio: UE
+Grupo contable proveedor: UE
+Código divisa: DKK
+CIF/NIF: 48967351
+Los precios de este proveedor no incluyen IVA. El método de liquidación es manual, los términos de pago son 1 mes/2% 8 días, el código de forma de pago es BANCO y el número de cuenta para el proveedor es 0000 0001.
+El código de condiciones de envío es EN LA FÁBRICA.
+
+Empezamos iendo a la tabla de proveedores y le damos al boton nuevo de arriba a la izquierda, y finalmente insertamos todos los datos quedando tal que asi:
 (Fotos de la ficha del proveedor)
 
-2.- Accedemos a la tabla de pagos y le damos a nuevo para crear un nuevo termino de pago, rellenandolo con los datos del pago. 
+2. Crear un término de pago 
+Configura un nuevo término de pago de 2 plazos, a pagar el primero de ellos a los 15 días y el segundo a los 30 días. El IVA se distribuirá proporcionalmente. No lleva asociado ningún descuento por pronto pago. Su descripción es 2-pagos a 15 y 30 días.
+Posteriormente crea un nuevo proveedor nacional con este término de pago a partir de los 
+siguientes datos:
+Nombre proveedor: Tecnología Dif. Ibérica, S.L.
+Dirección: Avda. Diagonal, 21
+CP: 08010
+Población: Barcelona
+Cód. país: ES
+Grupo contable negocio: NACIONAL
+Grupo contable IVA negocio: NACIONAL
+Grupo contable proveedor: NAC
+Precios IVA incluido: Si
+Forma de pago: BANCO
+Término de pago: 2X15 DÍAS (creado en el punto anterior)
+CIF: B26297689
+Asocia al proveedor un porcentaje del 3% de prepago
+
+Accedemos a la tabla de pagos y le damos a nuevo para crear un nuevo termino de pago, rellenandolo con los datos del pago. 
 (Foto de los pagos)
 Destacar que habria que entrar a nº de plazo y definir los dos plazos (uno de 15 y el siguiente a los siguientes 15).
 (Foto de dentro de nº de plazos)!!!
@@ -9,12 +43,51 @@ Haciendo que no se tenga que poner el nº de dias maximo hasta la fecha de venci
 Y por ultimo, como en el ejercicio anterior creamos un nuevo proveedor con los datos que se nos da, metiendo el metodo de pago creado anteriormente.
 (Fotos de la creacion del proveedor)
 
-3.- Igual que el ejercicio anterior. creamos el termino de pago y el proveedor.
+3. Crear un término de pago 
+Configura un nuevo término de pago de 2 plazos a 30 días, es decir, el primero a los 30 días y el segundo a los 60 días. El IVA se pagará íntegramente en el primer plazo. No lleva asociado ningún descuento por pronto pago. Su descripción es 2-pagos a 30 y 60 días.
+Posteriormente crea un nuevo proveedor nacional con este término de pago a partir de los siguientes datos:
+Nombre proveedor: CECOGA, S.L.
+Dirección: Ctra. Madrid-Irún, Km. 161
+CP: 09003
+Población: Burgos
+Cód. país: ES
+Grupo contable negocio: NACIONAL
+Grupo contable IVA negocio: NACIONAL
+Grupo contable proveedor: NAC
+Precios IVA incluido: Si
+Forma de pago: EFECTO
+Término de pago: 2X30
+CIF: B09057506
+Configura un descuento de línea para este proveedor, por el cual, se aplicará un 7% siempre que se solicite la compra del producto 70002.
+
+Igual que el ejercicio anterior. creamos el termino de pago y el proveedor.
 (Foto de los pagos)
 (Fotos ficha del proveedor)
 (Hacer lo del 7%)!!!
 
-4.- Para empezar, creamos una oferta de los productos que nos dicen para el proveedor que nos dicen.
+{
+Configurar el descuento de línea:
+
+a. En el menú, selecciona "Compras" y luego "Descuentos de Línea".
+
+b. Crea un nuevo descuento de línea con la siguiente información:
+
+    Proveedor: CECOGA, S.L.
+    Producto: 70002
+    Tipo de descuento: Cantidad
+    Cantidad mínima para aplicar el descuento: 1 (esto significa que se aplicará el descuento siempre que se compre al menos 1 unidad del producto 70002).
+    Porcentaje de descuento: 7%
+
+c. Guarda el descuento de línea.
+}
+
+4. Creación de oferta y pedido 
+Las existencias de “Sistemas de almacenamiento” (producto 766BC-C) y “Sistemas de 
+conferencias” (producto 766BC-A) están bajando y queremos pedir nuevos productos a “Furniture Industries” (proveedor 44756404).
+Para elevar las existencias a un nivel satisfactorio, debemos pedir 10 sistemas de almacenamiento y 20 sistemas de conferencias.
+Debemos registrar la oferta recibida del proveedor. Supongamos que aceptamos la oferta, a continuación, creamos el pedido de compra y registramos la recepción y facturamos el pedido completo. Debemos realizar la facturación desde la misma ficha del pedido (nº factura proveedor: 23382/10). Comprobar el saldo del proveedor una vez registrado el pedido.
+
+Para empezar, creamos una oferta de los productos que nos dicen para el proveedor que nos dicen.
 (Fotos de la oferta)
 Ya que la oferta ha sido aceptada, creamos su correspondiente pedido dando al boton en Acciones llamado "Convertir en pedido".
 (Foto del boton de convertir)
@@ -25,3 +98,91 @@ Y como el pedido tambien fue aceptado le damos al boton de Registrar o F9, que n
 Finalmente comprobamos el saldo.
 (Foto del saldo)
 Y si clicamos podemos ir a movimientos del proveedor donde se ve como la factura que hicimos aparece.
+
+5. Creación de oferta y pedido 
+Nos damos cuenta de que no queda ninguna lámpara AMSTERDAM (producto 1928-S) en 
+existencias, por lo que debemos pedir 50 unidades. Contactamos con Lamper Distribution (proveedor del ejercicio 1) para solicitarle una oferta de las lámparas AMSTERDAM. Nos hacen una oferta de 230,00 DKK por lámpara. Aceptamos la oferta y pedimos el producto.
+Esa misma tarde recibimos una nota del departamento de recepción donde nos indican que las lámparas han llegado. También se ha recibido la factura correspondiente (nº 00021).
+Realiza lo siguiente:
+• Crea una oferta para el pedido y, a continuación, conviértela en un pedido.
+• Registra la recepción y la factura del pedido.
+• Accede a los movimientos generados después del registro del pedido desde la ficha del proveedor. Comprueba los importes y los importes en divisa local, así como el tipo de cambio aplicado
+
+Como en el ejericicio anterior creamos una oferta con los datos que se nos aporta.
+(Fotos de la oferta)
+Y la convertimos a pedido quedando tal que asi:
+(Fotos del pedido)
+Despues, creamos la factura y la recibimos, dando esta factura:
+(Foto de la factura)
+Y vemos los cambios en movimientos generados:
+(Foto de los movimientos)!!!
+
+{
+Acceso a los movimientos generados después del registro del pedido:
+
+    Para acceder a los movimientos generados después del registro del pedido desde la ficha del proveedor, sigue estos pasos:
+
+        Ve al módulo de Compras y selecciona "Proveedores".
+
+        Busca el proveedor "Lamper Distribution" y selecciona su ficha.
+
+        En la ficha del proveedor, busca la sección que muestra los movimientos relacionados con las transacciones recientes, como pedidos, recepciones y facturas.
+
+        Desde allí, podrás ver los importes en divisa local, el tipo de cambio aplicado y los detalles de las transacciones relacionadas con el proveedor.
+}
+
+6. Crear una factura desde un pedido  
+Realiza un pedido al proveedor 30000 (Tecnología Hacetiempo, S.A.), de 10 sillas de invitado BERLIN (producto 1936-S) y 100 botes de pintura negra (producto 70100). El almacén recibe los productos el mismo día y nosotros recibimos la factura del proveedor (nº 1524).
+• Crea un pedido nuevo y registra la recepción del mismo.
+• Supón que ha habido un error y has registrado la recepción de los 100 botes de pintura negra pero en realidad únicamente han llegado las sillas de invitado BERLIN. Localiza el albarán y deshaz la recepción para la línea de los botes de pintura. Comprueba que las cantidades se actualizan en el pedido correctamente.
+• La facturación del pedido se realizará creando una factura en borrador y arrastrando las líneas del albarán generado (nº factura proveedor: 1524). Busca el documento registrado.
+
+
+
+7. Crear un pedido con cargos 
+Crea un nuevo pedido de compra para el proveedor 20000 en el que se van a pedir 20 unidades del “Monitor 17’’ M780 (80102-T) y 20 unidades de “Disco duro” (80218-T). La compra de estos productos lleva asociado un cargo por tratarse de material frágil de 24€, a repartir proporcionalmente entre ambas líneas de pedido. 
+• Registra la recepción y la facturación directamente desde el pedido (nº factura 
+proveedor: 3232).
+• Ten en cuenta si alguno de los productos debe llevar asociado un seguimiento de 
+producto, comprueba para ello si tiene definidos los números de serialización de forma automática, si es así, ejecuta el proceso adecuado para generar los números de serie, en caso contrario, introduce la información referente a los número de lote y serie de forma manual (nº de lote: MN080310).
+
+
+
+8. Crear y registrar abonos de compra 
+En el día de hoy, devuelves productos que habías pedido a Mensajería Madrid (proveedor 10000) en la factura 108026. Mensajería Madrid está de acuerdo con la devolución de los productos y en el envío de un abono. 
+• Crea el abono correspondiente (nº abono proveedor: CR0001) y regístralo en el 
+sistema. No es necesario asignar un nº de factura corregido.
+ 
+
+
+9. Crear y registrar abonos de compra 
+Cuando ya se había registrado la factura 108031 del proveedor 10000, el proveedor localizó un error en la factura que había enviado. Utiliza un abono para anular la factura en el sistema. El nº de abono del proveedor es CR23456. Añade el nº de factura corregido en la cabecera del abono. En la pestaña Aplicación introduce los datos de la factura para que se liquide automáticamente con el registro del abono.
+• Debes introducir y registrar el abono en el sistema. Busca el documento registrado.
+• Accede a la ficha del proveedor y comprueba que ambos documentos se han liquidado 
+entre sí, siendo su importe pendiente 0
+
+
+
+10. Crear y registrar facturas prepago 
+Registra en el sistema un servicio de consultoría (cuenta 6230002) que nos ha proporcionado 
+el proveedor Tecnología Dif. Ibérica, S.L. El importe asciende a 1.200€, y el número de factura 
+del proveedor es 12329/10. 
+Registra la transacción en el sistema. Localiza las facturas registradas y comprueba sus 
+importes.
+ 
+ 
+11. Realizar y registrar pagos 
+Hay varias facturas de compra pendientes de “Administración de fincas ARDA” (proveedor 20000) que han vencido. El 24/02/18 decidimos pagar las facturas que vencieron el 31/01/18 (documentos 108025 y 108033) mediante la cuenta del banco BO-INV. 
+Registra el pago y la deducción relacionada con el saldo pendiente del proveedor en el sistema, ejecutando el proceso “Proponer pagos a proveedores”. Comprueba que efectivamente esos documentos ya no aparecen como pendientes en la ficha del proveedor. 
+Localiza todos los movimientos que se han creado en el sistema, relacionados con el registro del pago de cada uno de estos documentos.
+ 
+ 
+12. Realizar y registrar pagos
+Registra el pago que hay pendiente con el proveedor Lamper Distribution desde el diario de pagos, introduciendo como fecha de registro la actual y como contrapartida el Banco BO-EUR. Accede a los movimientos del proveedor desde su ficha para comprobar que no tiene nada pendiente.
+ 
+ 
+13. Realizar y registrar pagos de efectos 
+Realiza una compra de 5 unidades del producto 70002 al proveedor CECOGA, S.L. (comprueba su término y forma de pago). Registra la recepción de la mercancía y su facturación (factura del proveedor nº 1234-2016)
+Como consecuencia de la compra se han generado 2 efectos a pagar. Registra los pagos correspondientes a los efectos pendientes desde el diario de pagos. Utiliza la opción “Liquidar 
+por tipo doc.” desde la misma línea del diario, siendo la contrapartida el Banco GIRO. Accede a los movimientos del proveedor para confirmar que no tiene nada pendiente.
+Recuerda que el producto 70002 del proveedor CECOGA, S.L. tiene un descuento en línea.

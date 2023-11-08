@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaaa3295-c4c8-46f1-a285-f7de90d4b911" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.projects/EjerciciosProcesos/.indexes/e4/27/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.projects/EjerciciosProcesos/.indexes/e4/27/history.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.projects/EjerciciosProcesos/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.projects/EjerciciosProcesos/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.projects/EjerciciosProcesos/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.projects/EjerciciosProcesos/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.root/16.tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.jdt.core/175989946.index" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.jdt.core/175989946.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../Procesos/WorkSpace Procesos/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +66,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "android.gradle.sync.needed": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/mario/OneDrive/Documentos/2-DAM/Moviles/WorkSpace Moviles/Ej11"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
