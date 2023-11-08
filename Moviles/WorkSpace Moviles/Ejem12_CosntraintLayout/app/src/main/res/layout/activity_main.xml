@@ -13,94 +13,137 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_nombre"
-        android:layout_width="225dp"
-        android:layout_height="66dp"
-        app:hintTextColor="#878787"
-        app:layout_constraintBottom_toBottomOf="@+id/cl_principal"
-        app:layout_constraintEnd_toEndOf="@+id/cl_principal"
-        app:layout_constraintStart_toEndOf="@+id/tv_nombre"
-        app:layout_constraintTop_toTopOf="@+id/guia40">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/til_el_nombre"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/guia40"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.339"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guia40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.4" />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt1"
+            app:layout_constraintEnd_toStartOf="@+id/bt2"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guia40" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt2"
+            app:layout_constraintEnd_toStartOf="@+id/bt3"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/bt1"
+            app:layout_constraintTop_toTopOf="@+id/guia40" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/bt2"
+            app:layout_constraintTop_toTopOf="@+id/guia40" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="132dp"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:text="@string/nombre"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_contra"
+            app:layout_constraintEnd_toStartOf="@+id/til_nombre"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="@+id/cl_principal"
+            app:layout_constraintTop_toTopOf="@+id/guia40"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_nombre"
+            android:layout_width="225dp"
             android:layout_height="66dp"
-            android:hint="@string/nombre"
-            android:text="@{nombre.nombre}"
-            android:textColorHint="#787878"
-            android:textSize="24dp" />
-    </com.google.android.material.textfield.TextInputLayout>
+            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundMode="filled"
+            app:hintTextColor="#878787"
+            app:layout_constraintBottom_toTopOf="@id/til_contra"
+            app:layout_constraintEnd_toEndOf="@+id/cl_principal"
+            app:layout_constraintStart_toEndOf="@+id/tv_nombre"
+            app:layout_constraintTop_toTopOf="@+id/guia40"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:startIconDrawable="@drawable/ic_persona"
+            app:startIconTint="#A30000">
 
-    <TextView
-        android:id="@+id/tv_nombre"
-        android:layout_width="129dp"
-        android:layout_height="53dp"
-        android:text="@string/nombre"
-        app:layout_constraintBottom_toBottomOf="@+id/cl_principal"
-        app:layout_constraintEnd_toStartOf="@+id/til_nombre"
-        app:layout_constraintStart_toStartOf="@+id/cl_principal"
-        app:layout_constraintTop_toTopOf="@+id/guia40"
-        app:layout_constraintVertical_bias="0.515"
-        android:gravity="center"
-        android:textSize="24dp"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/til_el_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:hint="@string/nombre"
+                android:text="@{nombre.nombre}"
+                android:textColorHint="#787878"
+                android:textSize="24dp" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/btGrabar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/boton"
-        app:layout_constraintBottom_toBottomOf="@+id/cl_principal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/til_nombre" />
+        <TextView
+            android:id="@+id/tv_contra"
+            android:layout_width="140dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:text="@string/contra"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/til_contra"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombre"
+            app:layout_constraintVertical_chainStyle="packed" />
 
-    <ImageView
-        android:id="@+id/img1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/guia40"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_contra"
+            android:layout_width="221dp"
+            android:layout_height="67dp"
+            app:boxBackgroundMode="filled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_contra"
+            app:layout_constraintTop_toBottomOf="@+id/til_nombre"
+            app:startIconDrawable="@android:drawable/ic_lock_idle_lock">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guia40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.4" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/til_el_contra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contra"
+                android:textSize="24dp" />
 
-    <Button
-        android:id="@+id/bt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bt1"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintEnd_toStartOf="@+id/bt2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guia40" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/bt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bt2"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintEnd_toStartOf="@+id/bt3"
-        app:layout_constraintStart_toEndOf="@+id/bt1"
-        app:layout_constraintTop_toTopOf="@+id/guia40" />
+        <Button
+            android:id="@+id/btGrabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/til_contra" />
 
-    <Button
-        android:id="@+id/bt3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bt3"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bt2"
-        app:layout_constraintTop_toTopOf="@+id/guia40" />
-
-</androidx.constraintlayout.widget.ConstraintLayout></layout>
+    </androidx.constraintlayout.widget.ConstraintLayout></layout>

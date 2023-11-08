@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ej11</string>
+    <string name="titulo">MainActivity</string>
+    <string name="lista">Lista de la compra</string>
+    <string name="nombre">Nombre del producto</string>
+    <string name="n">Nombre...</string>
+    <string name="precio">Precio del producto</string>
+    <string name="p">Precio...</string>
+    <string name="btAñadir">Añadir</string>
+    <string name="btBorrar">Borrar</string>
+    <string name="btView">Visualizar</string>
+</resources>

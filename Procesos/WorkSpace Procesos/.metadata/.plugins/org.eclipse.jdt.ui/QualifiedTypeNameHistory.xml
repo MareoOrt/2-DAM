@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="procesosContador"/>
-    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
     <fullyQualifiedTypeName name="Ejemplo.procesosContador"/>
     <fullyQualifiedTypeName name="Ejemplo.miContador"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
@@ -11,15 +10,12 @@
     <fullyQualifiedTypeName name="java.awt.Panel"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="EjerciciosExam.Contador"/>
-    <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="EjerciciosExam.Proceso"/>
     <fullyQualifiedTypeName name="Ejemplo2.Proceso"/>
     <fullyQualifiedTypeName name="java.nio.charset.IllegalCharsetNameException"/>
     <fullyQualifiedTypeName name="Proceso.ProcesoRunneable"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Ejericicio3.Proceso"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Ejem05_killProcess.Proceso"/>
@@ -28,4 +24,12 @@
     <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="Ejem08.Saludo"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="Ejem08.Proceso"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="Ejem8b.Consumidor"/>
+    <fullyQualifiedTypeName name="Ejem8b.DatoCompartido"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

@@ -5,4 +5,5 @@
     <string name="bt1">Boton 1</string>
     <string name="bt2">Boton 2</string>
     <string name="bt3">Boton 3</string>
+    <string name="contra">Contraseña</string>
 </resources>

@@ -29,9 +29,9 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.LENGTH_LONG
             ).show()
         }
-        var us1:Usuario = Usuario("Pedro")
+        var pedro:Usuario = Usuario("Pedro")
 
-        binding.nombre = us1
+        binding.nombre = pedro
     }
 }
 class Usuario{
