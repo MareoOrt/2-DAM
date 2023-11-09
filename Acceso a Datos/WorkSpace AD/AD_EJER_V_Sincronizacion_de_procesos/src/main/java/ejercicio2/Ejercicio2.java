@@ -29,15 +29,17 @@ public class Ejercicio2 extends HttpServlet {
 	/**
 	 * Do get.
 	 *
-	 * @param request the request
+	 * @param request  the request
 	 * @param response the response
 	 * @throws ServletException the servlet exception
-	 * @throws IOException Signals that an I/O exception has occurred.
+	 * @throws IOException      Signals that an I/O exception has occurred.
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
+		int valor = 0;
 
 		// Sincronizacion para solucionar problemas de concurrencia
 		synchronized (lock) {
@@ -48,7 +50,6 @@ public class Ejercicio2 extends HttpServlet {
 			}
 
 			// Suma
-			int valor = 0;
 			for (int i = 0; i < cadenaNum.size(); i++) {
 				valor += cadenaNum.get(i);
 			}
@@ -58,16 +59,16 @@ public class Ejercicio2 extends HttpServlet {
 				valor -= cadenaNum.get(i);
 			}
 
-			// Mostrar iframes
-			response.setContentType("html/txt");
-			response.getWriter().append("<html>body>");
-			for (int i = 0; i < 25; i++) {
-				response.getWriter().append(
-						"<iframe src=\"/EjercicioV/Ejercicio2\" width=\"19%\" >El resultado es " + valor + "</iframe>");
-			}
-			response.getWriter().append("</body></html>");
-			response.getWriter().close();
 		}
+		// Mostrar iframes
+		response.setContentType("html/txt");
+		response.getWriter().append("<html>body>");
+		for (int i = 0; i < 25; i++) {
+			response.getWriter()
+					.append("<iframe src=\"Ejercicio2\" width=\"19%\" >El resultado es " + valor + "</iframe>");
+		}
+		response.getWriter().append("</body></html>");
+		response.getWriter().close();
 
 	}
 

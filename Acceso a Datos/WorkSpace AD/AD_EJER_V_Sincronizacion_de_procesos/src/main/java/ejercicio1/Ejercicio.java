@@ -38,10 +38,10 @@ public class Ejercicio extends HttpServlet {
 		synchronized (lock) {
 
 			// Recoger parametro
-			int val = Integer.parseInt(request.getParameter("param"));
+			int n = Integer.parseInt(request.getParameter("param"));
 
 			// Mostrar
-			System.out.println("Soy el Servlet 1 y se que pusiste el numero " + val + " en al URL");
+			System.out.println("Soy el Servlet 1 y se que pusiste el numero " + n + " en al URL");
 
 			// Dormir 10 s
 			try {
@@ -49,10 +49,13 @@ public class Ejercicio extends HttpServlet {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
+			
+			// Guardar el atributo
+			request.setAttribute("num", n);
 
 			// Ejecutar servlet 2
 			Ejercicio1b ej = new Ejercicio1b();
-			ej.run();
+			ej.doGet(request, response);
 		}
 
 	}

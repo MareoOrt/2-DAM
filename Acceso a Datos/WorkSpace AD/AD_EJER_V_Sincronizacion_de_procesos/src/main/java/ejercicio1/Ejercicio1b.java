@@ -11,7 +11,7 @@ import java.io.IOException;
 /**
  * Servlet implementation class Ejercicio1b.
  */
-public class Ejercicio1b extends HttpServlet implements Runnable {
+public class Ejercicio1b extends HttpServlet {
 	
 	/** The Constant serialVersionUID. */
 	private static final long serialVersionUID = 1L;
@@ -42,15 +42,7 @@ public class Ejercicio1b extends HttpServlet implements Runnable {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// Recoger numero
-		int val = Integer.parseInt(request.getParameter("param"));
-	}
-
-	/**
-	 * Run.
-	 */
-	@Override
-	public void run() {
-		// Mostrar
-		System.out.println("Soy el Servlet 2 y se que pusiste el numero " + val + " en al URL");
+		int n = Integer.parseInt((String) getServletContext().getAttribute("num"));
+		System.out.println("Soy el Servlet 2 y se que pusiste el numero " + n + " en al URL");
 	}
 }

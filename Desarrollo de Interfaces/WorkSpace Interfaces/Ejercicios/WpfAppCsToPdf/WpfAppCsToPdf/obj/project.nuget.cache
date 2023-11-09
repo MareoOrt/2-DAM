@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NTruxBU3CeTVGRkVvUrhzcUY8GEjZ38K3+KfjiXT1K2+ExqosMdXFp9ftimPBm4no0Qt9HOa4lF/9rWDr3ftYQ==",
+  "dgSpecHash": "A3vbptFqCZh9DJPI3TOFe8KI7ZH4iaREt1r10p0qJ6tF27I9cTmU39q0TRknaohFtAq0ttQEsSwsOy+DGoaacw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Ejercicios\\WpfAppCsToPdf\\WpfAppCsToPdf\\WpfAppCsToPdf.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ortsanma\\.nuget\\packages\\docx\\2.5.0\\docx.2.5.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -16,12 +17,16 @@
     "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\ortsanma\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\pdfsharp\\6.0.0\\pdfsharp.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\pdfsharpcore\\1.3.62\\pdfsharpcore.1.3.62.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta17\\sixlabors.fonts.1.0.0-beta17.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\sixlabors.imagesharp\\1.0.4\\sixlabors.imagesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\ortsanma\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\ortsanma\\.nuget\\packages\\system.io.packaging\\4.5.0\\system.io.packaging.4.5.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\ortsanma\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
