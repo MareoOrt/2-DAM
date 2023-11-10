@@ -1,6 +1,7 @@
 package com.example.ej11
 
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -26,57 +27,40 @@ class MainActivity : AppCompatActivity() {
             com.google.android.material.R.layout.support_simple_spinner_dropdown_item,
             listProducto
         )
-
-    }
-
-    fun clickAdd(v: Button) {
-        var desc = binding.tilEtNombre.text.toString()
-        var precio = binding.tilEtPrecio.text.toString()
-
-        if (comporbarDou(precio) != 0.0) {
-            listProducto.add(Producto(desc, precio.toDouble()))
-            (binding.lvListaCompra.adapter as ArrayAdapter<Producto>).notifyDataSetChanged()
-            binding.tilEtNombre.setText("")
-            binding.tilEtPrecio.setText("")
-        }
-    }
-
-    fun comporbarDou(precio: String): Double {
-        var dou = 0.0
-        try {
-            dou = precio.toDouble()
-        } catch (e: Exception) {
+        binding.btAdd.setOnClickListener(View.OnClickListener {
+            var desc = binding.tilEtNombre.text.toString()
+            var precio = binding.tilEtPrecio.text.toString()
             try {
-                var cadena = precio.split(",")
-                var t = cadena[0] + "." + cadena[1]
-                dou = t.toDouble()
+                listProducto.add(Producto(desc, precio.toDouble()))
+                (binding.lvListaCompra.adapter as ArrayAdapter<Producto>).notifyDataSetChanged()
+                binding.tilEtNombre.setText("")
+                binding.tilEtPrecio.setText("")
             } catch (e: Exception) {
                 Snackbar.make(
-                    parent,
                     binding.clPrincipal,
-                    "No se escribio un valor de dinero correcto",
+                    "El valor del precio fue introducido mal",
                     Snackbar.LENGTH_LONG
-                ).show()
+                ).show();
             }
-        }
-        return dou
+        })
+
+        binding.btBorrar.setOnClickListener(View.OnClickListener {
+            val selectedItem = binding.lvListaCompra.selectedItem as Producto
+
+            val index = listProducto.indexOf(selectedItem)
+            if (index != -1) {
+                listProducto.removeAt(index)
+            }
+
+            (binding.lvListaCompra.adapter as ArrayAdapter<Producto>).notifyDataSetChanged()
+        })
+
+        binding.btView.setOnClickListener(View.OnClickListener {
+            val selectedItem = binding.lvListaCompra.selectedItem as Producto
+
+            binding.tilEtNombre.setText(selectedItem.descripcion)
+            binding.tilEtPrecio.setText(selectedItem.precio.toString())
+        })
     }
 
-    fun clickBorrar(v: Button) {
-        val selectedItem = binding.lvListaCompra.selectedItem as Producto
-
-        val index = listProducto.indexOf(selectedItem)
-        if (index != -1) {
-            listProducto.removeAt(index)
-        }
-
-        (binding.lvListaCompra.adapter as ArrayAdapter<Producto>).notifyDataSetChanged()
-    }
-
-    fun clickView(v: Button) {
-        val selectedItem = binding.lvListaCompra.selectedItem as Producto
-
-        binding.tilEtNombre.setText(selectedItem.descripcion)
-        binding.tilEtPrecio.setText(selectedItem.precio.toString())
-    }
 }

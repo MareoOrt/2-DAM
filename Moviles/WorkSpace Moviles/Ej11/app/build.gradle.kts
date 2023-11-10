@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.ej11"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.ej11"

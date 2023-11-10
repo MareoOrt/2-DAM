@@ -103,10 +103,8 @@
 
         <Button
             android:id="@+id/btAdd"
-            :onClickListener="clickAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:android
             android:text="@string/btAñadir"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/til_precio" />
@@ -115,7 +113,6 @@
             android:id="@+id/btBorrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClickListener="clickBorrar"
             android:text="@string/btBorrar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btAdd" />
@@ -123,8 +120,7 @@
         <Button
             android:id="@+id/btView"
             android:layout_width="325dp"
-            android:layout_height="42dp"
-            android:onClickListener="clickView"
+            android:layout_height="48dp"
             android:text="@string/btView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
