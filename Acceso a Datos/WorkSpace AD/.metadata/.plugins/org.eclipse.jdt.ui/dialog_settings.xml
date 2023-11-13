@@ -61,7 +61,7 @@
 		<item key="height" value="400"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="2"/>
+		<item key="pageIndex" value="3"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
 		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH" value="350"/>
