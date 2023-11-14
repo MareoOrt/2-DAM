@@ -1,12 +1,14 @@
 package com.example.ej11
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ej11.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
+import kotlin.math.log
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -30,11 +32,11 @@ class MainActivity : AppCompatActivity() {
         binding.btAdd.setOnClickListener(View.OnClickListener {
             var desc = binding.tilEtNombre.text.toString()
             var precio = binding.tilEtPrecio.text.toString()
+            Log.d(desc, precio.toDouble().toString())
+
+            /*
             try {
-                listProducto.add(Producto(desc, precio.toDouble()))
-                (binding.lvListaCompra.adapter as ArrayAdapter<Producto>).notifyDataSetChanged()
-                binding.tilEtNombre.setText("")
-                binding.tilEtPrecio.setText("")
+
             } catch (e: Exception) {
                 Snackbar.make(
                     binding.clPrincipal,
@@ -42,6 +44,11 @@ class MainActivity : AppCompatActivity() {
                     Snackbar.LENGTH_LONG
                 ).show();
             }
+             */
+            listProducto.add(Producto(desc, precio.toDouble()))
+            (binding.lvListaCompra.adapter as ArrayAdapter<Producto>).notifyDataSetChanged()
+            binding.tilEtNombre.setText("")
+            binding.tilEtPrecio.setText("")
         })
 
         binding.btBorrar.setOnClickListener(View.OnClickListener {
