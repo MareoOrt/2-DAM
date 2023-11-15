@@ -9,51 +9,54 @@ public class App {
 	public static void main(String[] args) {
 		CadNumero numeros = new CadNumero();
 		List<Integer> lista = new ArrayList<Integer>();
-		
+
 		System.out.print("Se escogieron los numeros ");
-		
+
 		// Generacion de aleatorios
 		for (int i = 0; i < 5; i++) {
 			int rnd = 0;// Numeros aleatorios
-			
+
 			do {// Saca un aleatorio hasta que este no este en la lista
-				rnd = new Random().nextInt(0,10);
+				rnd = new Random().nextInt(0, 10);
 			} while (comprobarIguales(lista, rnd));
-			
+
 			// Añado aleatorio a la lista
 			lista.add(rnd);
-			
+
 			// Imprimimos
-			if(i == 4 ) {
+			if (i == 4) {
 				System.out.print(" y " + rnd + "\n");
-			}else {				
-				System.out.print(" , " + rnd);
+			} else if (i == 3) {
+
+				System.out.print(rnd);
+			} else {
+				System.out.print(rnd + ", ");
 			}
 		}
-		
+
 		numeros.setNumeros(lista);
-		
+
+		System.out.println("\n");
 		// Generamos 5 hijos
 		for (int i = 0; i < 5; i++) {
 			ProcesoHijo hijo = new ProcesoHijo(numeros);
-			hijo.start();			
+			hijo.start();
 		}
-		
+
 		ProcesoPadre padre = new ProcesoPadre(numeros);
 		padre.start();
 	}
-	
-	
+
 	// Si el numero se encuentra ya en la lista devuelve true, sino false
 	public static boolean comprobarIguales(List<Integer> lista, int numero) {
 		boolean est = false;
-		
+
 		for (Integer integer : lista) {
-			if(integer == numero) {
+			if (integer == numero) {
 				est = true;
 			}
 		}
-		
-		return est;		
+
+		return est;
 	}
 }

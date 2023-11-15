@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="persona"
+            type="com.example.ejem14_recycledview_cardview.Persona" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cl_principal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_dato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/cl_principal"
+            app:layout_constraintStart_toStartOf="@id/cl_principal"
+            app:layout_constraintEnd_toEndOf="@id/cl_principal">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl_cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_foto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:layout_constraintStart_toStartOf="@id/cl_cardView"
+                    app:layout_constraintTop_toTopOf="@id/cl_cardView" />
+
+                <TextView
+                    android:id="@+id/tv_nombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    app:layout_constraintBottom_toBottomOf="@id/iv_foto"
+                    app:layout_constraintEnd_toEndOf="@id/cl_cardView"
+                    app:layout_constraintStart_toEndOf="@id/iv_foto"
+                    app:layout_constraintTop_toTopOf="@id/iv_foto"
+                    android:text="@{persona.nombre}"
+                    tools:text="Pedro Jimenez" />
+
+                <TextView
+                    android:id="@+id/tv_edad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{String.valueOf(persona.edad)}"
+                    app:layout_constraintEnd_toEndOf="@id/cl_cardView"
+                    app:layout_constraintStart_toEndOf="@id/iv_foto"
+                    app:layout_constraintTop_toBottomOf="@id/tv_nombre"
+                    tools:text="44" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

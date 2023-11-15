@@ -8,6 +8,7 @@ import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 import jakarta.servlet.http.HttpFilter;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -37,7 +38,7 @@ public class Ej2Filtro extends HttpFilter implements Filter {
 		// TODO Auto-generated method stub
 		// place your code here
 		int c = (request.getAttribute("contador")!=null)? (int) request.getAttribute("contador"): 1;
-		HashMap<String, Integer> mapa = request.getParameter("contador");
+		String mapa = request.getParameter("contador");
 		
 		
 		

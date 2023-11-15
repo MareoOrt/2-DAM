@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>EJER_VII_JSP1</display-name>
+    <servlet-name>EJER_VII_JSP1</servlet-name>
+    <servlet-class>EJER_VII_JSP1.EJER_VII_JSP1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EJER_VII_JSP1</servlet-name>
+    <url-pattern>/EJER_VII_JSP1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletVotacion</display-name>
+    <servlet-name>ServletVotacion</servlet-name>
+    <servlet-class>AD_T1_EJER_VII_JSP2.ServletVotacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletVotacion</servlet-name>
+    <url-pattern>/ServletVotacion</url-pattern>
+  </servlet-mapping>
+</web-app>

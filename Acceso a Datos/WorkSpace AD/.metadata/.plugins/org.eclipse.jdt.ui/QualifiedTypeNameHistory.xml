@@ -17,9 +17,6 @@
     <fullyQualifiedTypeName name="ejercicio1.Ejercicio1b"/>
     <fullyQualifiedTypeName name="java.util.concurrent.ThreadFactory"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCompleted"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
@@ -45,5 +42,9 @@
     <fullyQualifiedTypeName name="jakarta.servlet.FilterChain"/>
     <fullyQualifiedTypeName name="jakarta.servlet.FilterConfig"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="AD_T1_EJER_VII_JSP2.Votacion"/>
 </qualifiedTypeNameHistroy>
