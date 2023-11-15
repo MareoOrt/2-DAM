@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 INDEX VERSION 1.4+C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 2491375739.index
 4269870742.index
@@ -8,3 +9,14 @@ INDEX VERSION 1.4+C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSp
 348111208.index
 3319943675.index
 776004771.index
+=======
+INDEX VERSION 1.4+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+0.index
+91108394.index
+1337060088.index
+348111208.index
+3319943675.index
+3935775540.index
+3519406615.index
+2030747912.index
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 INDEX VERSION 1.134
+<<<<<<< Updated upstream
 C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\897962078.index
 \AD_T1_EJER_III\src\main\java
 C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\306377037.index
@@ -29,3 +30,17 @@ C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.
 \AD_T1_JSP1_APP_JEE_de_Recogida_de_Datos\src\main\java
 C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\972045222.index
 \AD_T1_JSP1_APP_JEE_de_Recogida_de_Datos\src\main\java
+=======
+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\897962078.index
+\AD_T1_EJER_III\src\main\java
+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2127739733.index
+\Teoria\src\main\java
+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4239803910.index
+\Ejercicios\src\main\java
+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\539931802.index
+\AD_EJER_V_Sincronizacion_de_procesos\src\main\java
+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\202549427.index
+\EjerciciosCorreccion\src\main\java
+C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3862865449.index
+\AD_EJER_IV\src\main\java
+>>>>>>> Stashed changes
