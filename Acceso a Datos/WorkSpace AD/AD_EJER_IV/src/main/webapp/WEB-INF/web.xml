@@ -10,8 +10,78 @@
   	<description></description>
   	<servlet-class>Ejercicio1.ServletDespachador</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Ejercicio2</servlet-name>
+  	<display-name>Ejercicio2</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio2.Ejercicio2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletTablas</servlet-name>
+  	<display-name>ServletTablas</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio2.ServletTablas</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletError</servlet-name>
+  	<display-name>ServletError</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio2.ServletError</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletDespachado</servlet-name>
+  	<display-name>ServletDespachado</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio3.ServletDespachado</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletErro</servlet-name>
+  	<display-name>ServletErro</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio1.ServletErro</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletBienvenida</servlet-name>
+  	<display-name>ServletBienvenida</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio1.ServletBienvenida</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletErr</servlet-name>
+  	<display-name>ServletErr</display-name>
+  	<description></description>
+  	<servlet-class>ejercicio3.ServletErr</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ServletDespachador</servlet-name>
   	<url-pattern>/ServletDespachador</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ejercicio2</servlet-name>
+  	<url-pattern>/Ejercicio2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletTablas</servlet-name>
+  	<url-pattern>/ServletTablas</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletError</servlet-name>
+  	<url-pattern>/ServletError</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletDespachado</servlet-name>
+  	<url-pattern>/ServletDespachado</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletErro</servlet-name>
+  	<url-pattern>/ServletErro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletBienvenida</servlet-name>
+  	<url-pattern>/ServletBienvenida</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletErr</servlet-name>
+  	<url-pattern>/ServletErr</url-pattern>
   </servlet-mapping>
 </web-app>

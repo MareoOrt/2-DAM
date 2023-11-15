@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina de inicio</title>
+    </head>
+<body>
+	<form action="/ServletDespachador.java" method="post">
+		<table align="center" border="1">
+			<tr>
+				<td align="center" colspan="2" bgcolor="AABBFF">
+					<h2>Tablas de multiplicar</h2>
+				</td>
+			</tr>
+			<tr bgcolor="orange">
+				<td align="right"><b>Numero:</b></td>
+				<td>
+					<select name="listaTabla">
+						<option value="0" selected>Elige una tabla</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2">
+					<font color="gray">Elige un color para la tabla</font>
+					<hr/>
+					Negro<input type="radio" name="color" value="gray" checked="checked"/><br/>
+					Rojo<input type="radio" name="color" value="red"/><br/>
+					Verde<input type="radio" name="color" value="green"/><br/>
+					Azul<input type="radio" name="color" value="#AABBFF"/><br/>
+					Naranja<input type="radio" name="color" value="orange"/>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2" bgcolor="AABBFF">
+					<input type="submit" value="Crear"/>
+					<input type="reset" value="Borrar"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

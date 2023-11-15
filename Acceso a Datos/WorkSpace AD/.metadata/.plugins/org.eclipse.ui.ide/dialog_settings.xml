@@ -4,10 +4,12 @@
 	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD"/>
+			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\AD_EJER_IV"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD"/>
 			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\AD_T1_EJER_III"/>
 			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\AD_EJER_V_Sincronizacion_de_procesos"/>
