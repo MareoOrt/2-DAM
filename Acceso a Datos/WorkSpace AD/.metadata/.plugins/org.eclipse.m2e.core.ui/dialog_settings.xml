@@ -31,6 +31,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.gf.AD_T1_JSP4_Aplicacion_JEE_Gestion_Incidencias"/>
 			<item value="com.gf.AD_T1_JSP1_APP_JEE_de_Recogida_de_Datos"/>
 			<item value="com.gf.AD_EJERVI_EVENTOS_FILTROS"/>
 		</list>
@@ -38,6 +39,7 @@
 			<item value="com.gf"/>
 		</list>
 		<list key="artifactId">
+			<item value="AD_T1_JSP4_Aplicacion_JEE_Gestion_Incidencias"/>
 			<item value="AD_T1_JSP1_APP_JEE_de_Recogida_de_Datos"/>
 			<item value="AD_EJERVI_EVENTOS_FILTROS"/>
 		</list>

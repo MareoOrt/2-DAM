@@ -2,33 +2,39 @@ package ejericicio7_NotifyWait2;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
 
 public class ProcesoPadre extends Thread {
 
 	private CadNumero numeros;
+	private Thread[] procesosHijos;
 
-	public ProcesoPadre(CadNumero numeros) {
+	public ProcesoPadre(CadNumero numeros, Thread[] procesosHijos) {
 		super();
 		this.numeros = numeros;
+		this.procesosHijos = procesosHijos;
 	}
 
 	@Override
 	public void run() {
 		super.run();
 
-		List<Integer> lista = new ArrayList<>(numeros.getNumeros());// Guardo la cadena inicial
+		List<Integer> lista = new ArrayList<>(numeros.getNumeros());
 
-		for (int i = 0; i < 4; i++) {// Repetimos 3 veces
+		for (int i = 0; i < 4; i++) {
 
 			System.out.println("Esta es la vuelta " + (i + 1));
 
-			numeros.setNumeros(new ArrayList<>(lista));// Pongo la cadena inicial
+			numeros.setNumeros(new ArrayList<>(lista));
 
-			do {// Repetimos hasta que se cojan todos los numeros de la lista
-				synchronized (numeros) {// Despertamos a los proesos
-					numeros.notify();
+			do {
+				synchronized (numeros) {
+					for (int j = 0; j < procesosHijos.length; j++) {
+						
+						if(procesosHijos[i].is()) {
+							
+							procesosHijos[i].notify();
+						}
+					}
 				}
 			} while (numeros.getNumeros().size() > 0);
 
