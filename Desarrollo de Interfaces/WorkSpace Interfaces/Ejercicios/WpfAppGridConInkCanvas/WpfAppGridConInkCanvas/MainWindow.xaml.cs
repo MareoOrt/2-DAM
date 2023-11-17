@@ -29,8 +29,8 @@ namespace WpfAppGridConInkCanvas
         private void InkCanvas_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
             Random randonGen = new Random();
-            Color randomColor = Color.FromRgb((byte)randonGen.Next(255), (byte)randonGen.Next(255),
-            (byte)randonGen.Next(255));
+            Color randomColor = Color.FromRgb((byte)randonGen.Next(0,255), (byte)randonGen.Next(0,255),
+            (byte)randonGen.Next(0, 255));
 
             Line linea = new Line()
             {
