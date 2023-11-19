@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>ServletIncidencia</display-name>
+    <servlet-name>ServletIncidencia</servlet-name>
+    <servlet-class>ServletIncidencia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletIncidencia</servlet-name>
+    <url-pattern>/ServletIncidencia</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ConsultaIncidencia</display-name>
+    <servlet-name>ConsultaIncidencia</servlet-name>
+    <servlet-class>Ejercicio1.ConsultaIncidencia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConsultaIncidencia</servlet-name>
+    <url-pattern>/ConsultaIncidencia</url-pattern>
+  </servlet-mapping>
+</web-app>

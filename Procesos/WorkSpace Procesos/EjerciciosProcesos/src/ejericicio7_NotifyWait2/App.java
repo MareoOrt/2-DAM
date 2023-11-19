@@ -12,18 +12,15 @@ public class App {
 
 		System.out.print("Se escogieron los numeros ");
 
-		// Generacion de aleatorios
 		for (int i = 0; i < 5; i++) {
-			int rnd = 0;// Numeros aleatorios
+			int rnd = 0;
 
-			do {// Saca un aleatorio hasta que este no este en la lista
+			do {
 				rnd = new Random().nextInt(0, 10);
 			} while (comprobarIguales(lista, rnd));
 
-			// Añado aleatorio a la lista
 			lista.add(rnd);
 
-			// Imprimimos
 			if (i == 4) {
 				System.out.print(" y " + rnd + "\n");
 			} else if (i == 3) {
@@ -37,17 +34,19 @@ public class App {
 		numeros.setNumeros(lista);
 
 		System.out.println("\n");
-		// Generamos 5 hijos
+		
+		Thread[] procesosHijos = new Thread[5];
+		
 		for (int i = 0; i < 5; i++) {
 			ProcesoHijo hijo = new ProcesoHijo(numeros);
 			hijo.start();
+			procesosHijos[i]=hijo;
 		}
 
-		ProcesoPadre padre = new ProcesoPadre(numeros);
+		ProcesoPadre padre = new ProcesoPadre(numeros, procesosHijos);
 		padre.start();
 	}
 
-	// Si el numero se encuentra ya en la lista devuelve true, sino false
 	public static boolean comprobarIguales(List<Integer> lista, int numero) {
 		boolean est = false;
 
