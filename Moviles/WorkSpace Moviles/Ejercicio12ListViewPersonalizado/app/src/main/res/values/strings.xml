@@ -2,32 +2,7 @@
     <string name="app_name">Ejercicio12.ListViewPersonalizado</string>
     <string name="Nombre">Nombre</string>
     <string name="Castilla_y_Leon">Castilla y León</string>
-    <string-array name="Provincias_CyL">
-        <item>Ávila</item>
-        <item>Burgos</item>
-        <item>León</item>
-        <item>Palencia</item>
-        <item>Salamanca</item>
-        <item>Segovia</item>
-        <item>Soria</item>
-        <item>Valladolid</item>
-        <item>Zamora</item>
-    </string-array>
     <string name="Galicia">Galicia</string>
-    <string-array name="Provincias_Galicia">
-        <item>La Coruña</item>
-        <item>Lugo</item>
-        <item>León</item>
-        <item>Orense</item>
-        <item>Pontevedra</item>
-    </string-array>
     <string name="Otro">asdf</string>
-    <string-array name="Provincias_Otro">
-        <item>Otra</item>
-        <item>vsdrevsf</item>
-        <item>eothbrer</item>
-        <item>wcvmforevmfcore</item>
-        <item>ads</item>
-    </string-array>
     <string name="Anadir">Añadir</string>
 </resources>

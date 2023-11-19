@@ -2,6 +2,7 @@ package com.example.ejercicio12listviewpersonalizado
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ejercicio12listviewpersonalizado.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -14,13 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.lvLista.adapter = CCOOAdapter(CCOOProvider.datos)
 
-    }
-
-    fun llenarList(){
-
-
-
-        binding.lvLista
     }
 }
