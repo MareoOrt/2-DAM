@@ -7,7 +7,7 @@
 <title>AD_T1_EJER(VII)_JSP4: APLICACIÓN JEE DE GESTIÓN INCIDENCIAS</title>
 </head>
 <body>
-	<form action="ServletIncidencia.java" method="post">
+	<form action="ServletIncidencia1" method="post">
 		<table>
 			<tr>
 				<td colspan="2"><h1>ALTA INCIDENCIA</h1></td>
@@ -26,7 +26,7 @@
 			<tr>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="submit" name="confirmar" value="Confirmar" </td>
+				<td colspan="2"><input type="submit" name="confirmar" value="Confirmar"></td>
 			</tr>
 		</table>
 	</form>

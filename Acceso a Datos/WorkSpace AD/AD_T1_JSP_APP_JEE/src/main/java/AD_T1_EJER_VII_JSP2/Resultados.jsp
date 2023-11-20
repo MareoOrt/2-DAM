@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="/Votación.jsp"></a>
+
+<a href="/Votación.jsp">Volver</a>
 </body>
 </html>
