@@ -5,11 +5,11 @@ class CCOOProvider {
     companion object {
         var datos:ArrayList<CCOO> = arrayListOf<CCOO>(
             CCOO("Castilla y León",
-                ["Ávila", "Burgos", "León", "Palencia", "Salamanca", "Segovia", "Soria", "Valladolid", "Zamora"]),
+                listOf("Ávila", "Burgos", "León", "Palencia", "Salamanca", "Segovia", "Soria", "Valladolid", "Zamora")),
             CCOO("Galicia",
-                ["Lugo", "Pontevedra", "Orense" ,"La Coruña"]),
+                listOf("Lugo", "Pontevedra", "Orense" ,"La Coruña")),
             CCOO("asdf",
-                ["cvsedfvg", "cwfe", "cwerdvf"])
+                listOf("cvsedfvg", "cwfe", "cwerdvf"))
         )
     }
 }

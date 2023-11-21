@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejem15_Alertas</string>
+    <string-array name="ciudades">
+        <item>Valencia</item>
+        <item>Barcelona</item>
+        <item>Madrid</item>
+        <item>valladolid</item>
+        <item>Sevilla</item>
+        <item>Toledo</item>
+        <item>Santiago</item>
+    </string-array>
+</resources>
