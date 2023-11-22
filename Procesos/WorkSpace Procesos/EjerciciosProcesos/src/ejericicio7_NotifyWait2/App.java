@@ -35,7 +35,7 @@ public class App {
 
 		System.out.println("\n");
 		
-		Thread[] procesosHijos = new Thread[5];
+		ProcesoHijo[] procesosHijos = new ProcesoHijo[5];
 		
 		for (int i = 0; i < 5; i++) {
 			ProcesoHijo hijo = new ProcesoHijo(numeros);

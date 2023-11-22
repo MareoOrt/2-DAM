@@ -6,9 +6,9 @@ import java.util.List;
 public class ProcesoPadre extends Thread {
 
 	private CadNumero numeros;
-	private Thread[] procesosHijos;
+	private ProcesoHijo[] procesosHijos;
 
-	public ProcesoPadre(CadNumero numeros, Thread[] procesosHijos) {
+	public ProcesoPadre(CadNumero numeros, ProcesoHijo[] procesosHijos) {
 		super();
 		this.numeros = numeros;
 		this.procesosHijos = procesosHijos;
@@ -30,7 +30,7 @@ public class ProcesoPadre extends Thread {
 				synchronized (numeros) {
 					for (int j = 0; j < procesosHijos.length; j++) {
 						
-						if(procesosHijos[i].is()) {
+						if(procesosHijos[i].isElegido()) {
 							
 							procesosHijos[i].notify();
 						}
