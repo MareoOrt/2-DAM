@@ -109,4 +109,14 @@
   <listener>
     <listener-class>ejercicios_VI_EVENTOS_Y_FILTROS.listener1</listener-class>
   </listener>
+  <servlet>
+    <description></description>
+    <display-name>ServletEstadistica</display-name>
+    <servlet-name>ServletEstadistica</servlet-name>
+    <servlet-class>AD_T1_EJER_VII_JSP3_APLICACIÓN_JEE_ESTADÍSTICA.ServletEstadistica</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletEstadistica</servlet-name>
+    <url-pattern>/ServletEstadistica</url-pattern>
+  </servlet-mapping>
 </web-app>

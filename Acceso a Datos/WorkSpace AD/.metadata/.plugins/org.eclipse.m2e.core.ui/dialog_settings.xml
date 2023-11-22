@@ -31,17 +31,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.gf.AD_T1_JSP4_Aplicacion_JEE_Gestion_Incidencias"/>
-			<item value="com.gf.AD_T1_JSP1_APP_JEE_de_Recogida_de_Datos"/>
-			<item value="com.gf.AD_EJERVI_EVENTOS_FILTROS"/>
 		</list>
 		<list key="groupId">
-			<item value="com.gf"/>
 		</list>
 		<list key="artifactId">
-			<item value="AD_T1_JSP4_Aplicacion_JEE_Gestion_Incidencias"/>
-			<item value="AD_T1_JSP1_APP_JEE_de_Recogida_de_Datos"/>
-			<item value="AD_EJERVI_EVENTOS_FILTROS"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -77,5 +70,7 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>
