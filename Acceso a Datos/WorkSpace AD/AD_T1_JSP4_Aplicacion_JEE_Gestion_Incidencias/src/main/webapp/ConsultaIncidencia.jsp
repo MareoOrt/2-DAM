@@ -2,8 +2,12 @@
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <%
-int[] codigos = (int[]) getServletContext().getAttribute("codigos");
-String[][] incidencias = (String[][]) getServletContext().getAttribute("incidencias");
+int[] codigos = (getServletContext().getAttribute("codigos") != null)
+		? (int[]) getServletContext().getAttribute("codigos")
+		: new int[1];
+String[][] incidencias = (getServletContext().getAttribute("incidencias") != null)
+		? (String[][]) getServletContext().getAttribute("incidencias")
+		: new String[2][1];
 %>
 <html>
 <head>
@@ -20,14 +24,22 @@ String[][] incidencias = (String[][]) getServletContext().getAttribute("incidenc
 		</tr>
 		<%
 		for (int i = 0; i < codigos.length; i++) {
+			if (codigos[i] > 0 && !incidencias[0][i].isEmpty() && !incidencias[i][i].isEmpty()){
 		%>
 		<tr>
-			<td><%=codigos[i] %></td>
-			<td><%=incidencias[0][i] %></td>
-			<td><%=incidencias[1][i] %></td>
+			<td><%=codigos[i]%></td>
+			<td><%=incidencias[0][i]%></td>
+			<td><%=incidencias[1][i]%></td>
 		</tr>
 		<%
-		}
+			}else{
+				%>
+				<tr>
+			<td colspan="3" > <h4>No hay ninguna incidencia</h4></td>
+		</tr>
+				<% 
+				}
+			}
 		%>
 	</table>
 </body>

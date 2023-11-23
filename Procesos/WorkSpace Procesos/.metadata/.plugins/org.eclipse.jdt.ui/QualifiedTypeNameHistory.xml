@@ -37,4 +37,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.nio.channels.NotYetBoundException"/>
 </qualifiedTypeNameHistroy>
