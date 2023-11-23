@@ -34,6 +34,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Procesos\WorkSpace Procesos\Ejer09_Banco"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Procesos\WorkSpace Procesos\Ejer07_WaitNotify"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Procesos\WorkSpace Procesos"/>
 		</list>
