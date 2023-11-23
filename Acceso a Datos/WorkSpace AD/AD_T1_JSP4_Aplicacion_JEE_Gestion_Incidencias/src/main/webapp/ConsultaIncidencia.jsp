@@ -1,14 +1,8 @@
+<%@page import="Ejercicio1.Incidencia"%>
+<%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<%
-int[] codigos = (getServletContext().getAttribute("codigos") != null)
-		? (int[]) getServletContext().getAttribute("codigos")
-		: new int[1];
-String[][] incidencias = (getServletContext().getAttribute("incidencias") != null)
-		? (String[][]) getServletContext().getAttribute("incidencias")
-		: new String[2][1];
-%>
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -16,6 +10,11 @@ String[][] incidencias = (getServletContext().getAttribute("incidencias") != nul
 	INCIDENCIAS</title>
 </head>
 <body>
+	<%
+	ArrayList<Incidencia> incidencias = (application.getAttribute("incidencias") != null)
+			? (ArrayList<Incidencia>) application.getAttribute("incidencias")
+			: new ArrayList<>();
+	%>
 	<table>
 		<tr>
 			<td><b>INCIDENCIA</b></td>
@@ -23,24 +22,29 @@ String[][] incidencias = (getServletContext().getAttribute("incidencias") != nul
 			<td><b>DESCRIPCIÓN</b></td>
 		</tr>
 		<%
-		for (int i = 0; i < codigos.length; i++) {
-			if (codigos[i] > 0 && !incidencias[0][i].isEmpty() && !incidencias[i][i].isEmpty()){
+		if (!incidencias.isEmpty()) {
+			for (Incidencia i : incidencias) {
 		%>
 		<tr>
-			<td><%=codigos[i]%></td>
-			<td><%=incidencias[0][i]%></td>
-			<td><%=incidencias[1][i]%></td>
+			<td><%=i.getCodigo()%></td>
+			<td><%=i.getTema()%></td>
+			<td><%=i.getDescripcion()%></td>
 		</tr>
 		<%
-			}else{
-				%>
-				<tr>
-			<td colspan="3" > <h4>No hay ninguna incidencia</h4></td>
+		}
+		} else {
+		%>
+		<tr>
+			<td colspan="3">
+				<h4>No hay ninguna incidencia</h4>
+			</td>
 		</tr>
-				<% 
-				}
-			}
+		<%
+		}
 		%>
 	</table>
+	<form action="AltaIncidencia.jsp">
+		<input type="submit" name="boton" value="Volver">
+	</form>
 </body>
 </html>

@@ -1,5 +1,4 @@
 
-
 import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -7,6 +6,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -17,64 +17,52 @@ import Ejercicio1.Incidencia;
  */
 public class ServletIncidencia1 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ServletIncidencia1() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
-    @Override
-    public void init(ServletConfig config) throws ServletException {
-    	// TODO Auto-generated method stub
-    	super.init(config);
-    }
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		HashMap<Integer, Incidencia> incidencias = (getServletConfig().getServletContext().getAttribute("mapaIncidencias") != null)
-				? (HashMap<Integer, Incidencia>) getServletConfig().getServletContext().getAttribute("mapaIncidencias")
-				: new HashMap<Integer, Incidencia>();
-		int codigo = 0;
+	public ServletIncidencia1() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
-		do {
-			codigo = new Random().nextInt(1, 20);
-		} while (!incidencias.containsKey(codigo));
+	@Override
+	public void init(ServletConfig config) throws ServletException {
+		// TODO Auto-generated method stub
+		super.init(config);
+	}
 
-		incidencias.put(codigo,
-				new Incidencia(codigo, request.getParameter("tema"), request.getParameter("descripcion")));
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
-		response.setContentType("text/html");
-		response.getWriter().append("<html><body><form action='ConsultaIncidencia.jsp'>")
-				.append("<h1>ALTA INCIDENCIA</H1>")
-				.append("<p>Su incidencia ha sido dada de alta en nuestro sistema con el codigo: </p>")
-				.append("<h2>" + codigo + "</h2>").append("<input type='submit' name='consultar' value='Consultar'>")
-				.append("</form></body></html>");
+		String page = "";
+		ArrayList<Incidencia> incidencias = (getServletContext().getAttribute("listInc") != null)
+				? (ArrayList<Incidencia>) getServletContext().getAttribute("listInc")
+				: new ArrayList<Incidencia>();
 
-		int[] codigosAt = new int[incidencias.size() + 1];
-		String[][] incidenciasAt = new String[2][incidencias.size() + 1];
-
-		int cont = 0;
-
-		for (Incidencia i : incidencias.values()) {
-
-			codigosAt[cont] = i.getCodigo();
-
-			incidenciasAt[0][cont] = i.getTema();
-			incidenciasAt[1][cont] = i.getDescripcion();
-
-			cont++;
+		switch (request.getParameter("boton")) {
+		case "Confirmar":
+			if(!request.getParameter("tema").isEmpty() && !request.getParameter("descripcion").isEmpty()) {
+				Incidencia incidencia = new Incidencia(request.getParameter("tema"), request.getParameter("descripcion"));
+				incidencias.add(incidencia);
+				getServletConfig().getServletContext().setAttribute("listInc", incidencias);
+				request.setAttribute("codigo", incidencia.getCodigo());
+			}else {
+				request.setAttribute("error", true);
+			}
+			page="AltaIncidencia.jsp";
+			break;
+		case "Consultar":
+			page="ConsultaIncidencia.jsp";
+			break;
+		default:
+			break;
 		}
-
-		getServletConfig().getServletContext().setAttribute("codigos", codigosAt);
-		getServletConfig().getServletContext().setAttribute("incidencias", incidenciasAt);
-
-		getServletConfig().getServletContext().setAttribute("mapaIncidencias", incidencias);
-
-		response.getWriter().close();
+		request.getRequestDispatcher(page).forward(request, response);
 	}
 
 }

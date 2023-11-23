@@ -1,0 +1,41 @@
+G:\sources\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.exe
+G:\sources\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.deps.json
+G:\sources\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.runtimeconfig.json
+G:\sources\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.dll
+G:\sources\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.pdb
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\MainWindow.g.cs
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\App.g.cs
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones_MarkupCompile.cache
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones_MarkupCompile.lref
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\MainWindow.baml
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.g.resources
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.GeneratedMSBuildEditorConfig.editorconfig
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.AssemblyInfoInputs.cache
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.AssemblyInfo.cs
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.csproj.CoreCompileInputs.cache
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.dll
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\refint\WpfAppAnimaciones.dll
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.pdb
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.genruntimeconfig.cache
+G:\sources\WpfAppAnimaciones\obj\Debug\net7.0-windows\ref\WpfAppAnimaciones.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.exe
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.deps.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.runtimeconfig.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\bin\Debug\net7.0-windows\WpfAppAnimaciones.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones_MarkupCompile.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones_MarkupCompile.lref
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.g.resources
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.AssemblyInfoInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.AssemblyInfo.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.csproj.CoreCompileInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\refint\WpfAppAnimaciones.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\WpfAppAnimaciones.genruntimeconfig.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppAnimaciones\obj\Debug\net7.0-windows\ref\WpfAppAnimaciones.dll
