@@ -15,6 +15,16 @@ public class BancoProductor extends Thread {
 		banca = 23000000;
 	}
 
+	public synchronized double getBanca() {
+		return banca;
+	}
+	
+
+	public void setBanca(double banca) {
+		this.banca = banca;
+	}
+	
+
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub

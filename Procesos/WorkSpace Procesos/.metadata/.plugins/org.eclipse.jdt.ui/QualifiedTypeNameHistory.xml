@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.nio.channels.NotYetBoundException"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -45,4 +44,8 @@
     <fullyQualifiedTypeName name="java.awt.font.NumericShaper"/>
     <fullyQualifiedTypeName name="java.text.NumberFormat"/>
     <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.spi.SyncResolver"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="Ejercicio10.Cocinero"/>
+    <fullyQualifiedTypeName name="Ejercicio10.Comensales"/>
 </qualifiedTypeNameHistroy>

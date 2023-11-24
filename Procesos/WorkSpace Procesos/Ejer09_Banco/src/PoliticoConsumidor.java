@@ -1,8 +1,5 @@
 package versionPro;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-
 public class PoliticoConsumidor extends Thread {
 
 	private Ventanilla ventanilla;
@@ -22,14 +19,10 @@ public class PoliticoConsumidor extends Thread {
 		super.run();
 
 		do {
-			if(!ventanilla.ventanillaVacia()) {
 			System.out.println("Soy el " + getName().toLowerCase() + " y robe lo que habia en la ventanilla");
 			this.dineroRobado += ventanilla.getDinero();
-			}
-		} while (!ventanilla.isSeAcaboElChollo());
+		} while (ventanilla.isSeAcaboElChollo());
 		
-		NumberFormat nf = new DecimalFormat("0.00");
-		System.out.println("Soy el " + getName().toLowerCase() + " y al final robe " + nf.format(dineroRobado) + " €");
 
 	}
 }

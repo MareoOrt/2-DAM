@@ -16,22 +16,11 @@ public class Ventanilla {
 		return seAcaboElChollo;
 	}
 
-	public synchronized void setSeAcaboElChollo(boolean seAcaboElChollo) {
-		notifyAll();
+	public void setSeAcaboElChollo(boolean seAcaboElChollo) {
 		this.seAcaboElChollo = seAcaboElChollo;
 	}
 
-	public synchronized boolean ventanillaVacia() {
-		return  (this.dinero ==0);
-	}
-	
-	public synchronized double getDinero() {
-		try {
-			wait();
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	public double getDinero() {
 		double d = this.dinero;
 		this.dinero = 0;
 		return d;
