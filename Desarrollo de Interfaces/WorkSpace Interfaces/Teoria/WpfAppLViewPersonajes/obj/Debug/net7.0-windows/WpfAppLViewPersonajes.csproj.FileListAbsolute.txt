@@ -1,0 +1,62 @@
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.exe
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.deps.json
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.runtimeconfig.json
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.dll
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.pdb
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.csproj.AssemblyReference.cache
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\MainWindow.g.cs
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\App.g.cs
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes_MarkupCompile.cache
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes_MarkupCompile.lref
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\MainWindow.baml
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.g.resources
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.GeneratedMSBuildEditorConfig.editorconfig
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.AssemblyInfoInputs.cache
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.AssemblyInfo.cs
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.csproj.CoreCompileInputs.cache
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.csproj.CopyComplete
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.dll
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\refint\WpfAppLViewPersonajes.dll
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.pdb
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.genruntimeconfig.cache
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\ref\WpfAppLViewPersonajes.dll
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Datos\Personajes.xml
+G:\sources\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes_Content.g.cs
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\DelBosque.png
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\FernandoT.png
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\SergioR.png
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\XaviH.png
+G:\sources\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Datos\personajes.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Datos\personajes.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\DelBosque.png
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\FernandoT.png
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\SergioR.png
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Imagenes\XaviH.png
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.exe
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Datos\Personajes.xml
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.deps.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.runtimeconfig.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\WpfAppLViewPersonajes.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes_Content.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes_MarkupCompile.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes_MarkupCompile.lref
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.g.resources
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.AssemblyInfoInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.AssemblyInfo.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.csproj.CoreCompileInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.csproj.CopyComplete
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\refint\WpfAppLViewPersonajes.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\WpfAppLViewPersonajes.genruntimeconfig.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLViewPersonajes\obj\Debug\net7.0-windows\ref\WpfAppLViewPersonajes.dll

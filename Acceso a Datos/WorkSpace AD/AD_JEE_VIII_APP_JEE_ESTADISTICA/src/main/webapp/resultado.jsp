@@ -13,7 +13,7 @@
 		String nombre = (request.getAttribute("nombre")!= null)? (String) request.getAttribute("nombre"):"";
 		HashMap<String, Integer> mapa = (request.getAttribute("opciones") != null)?
 				(HashMap<String, Integer>) request.getAttribute("opciones"): new HashMap<>();
-		int contadorTotal = 0;
+	int contadorTotal =  (request.getAttribute("contador") != null) ? Integer.parseInt( (String) request.getAttribute("contador")): 1;
 		%>
 		<h1>ESTADÍSTICAS WEB AD</h1>
 		<h2>

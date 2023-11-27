@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Personajes>
+  <Personaje Nombre="Vicente del Bosque">
+    <Foto>Imagenes/DelBosque.png</Foto>
+  </Personaje>
+  <Personaje Nombre="Fernando Torres">
+    <Foto>Imagenes/FernandoT.png</Foto>
+  </Personaje>
+  <Personaje Nombre="Sergio Ramos">
+    <Foto>Imagenes/SergioR.png</Foto>
+  </Personaje>
+  <Personaje Nombre="Xavi Hernández">
+    <Foto>Imagenes/XaviH.png</Foto>
+  </Personaje>
+</Personajes> 

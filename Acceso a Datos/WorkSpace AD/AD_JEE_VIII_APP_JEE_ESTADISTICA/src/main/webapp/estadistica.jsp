@@ -9,10 +9,10 @@
 <body>
 	<form action="ServletEstadistica" method="post">
 		<%
-		int contador = (request.getParameter("contador") != null) ? Integer.parseInt( (String) request.getAttribute("contador")) : 1;
+		int contador = (request.getParameter("contador") != null) ? Integer.parseInt( (String) request.getAttribute("contador")): 1;
 		if (contador > 1) {
 		%>
-		(*) El nombre y la respuesta son obligatorios
+		(*) La encuesta ya fue realizada
 
 		<%
 		} else {
@@ -24,19 +24,19 @@
 		<h3>Cuando se acerca la fecha del examen, eres de los que ...</h3>
 		<br>
 		<p>
-			<input type="radio" name="opcion" value="1"> Me lo se
+			<input type="radio" name="1" value="1"> Me lo se
 			todo, con la clase es suficiente
 		</p>
 		<p>
-			<input type="radio" name="opcion" value="2"> No tengo ni
+			<input type="radio" name="2" value="2"> No tengo ni
 			idea, no lo intento
 		</p>
 		<p>
-			<input type="radio" name="opcion" value="3"> Estudio en el
+			<input type="radio" name="3" value="3"> Estudio en el
 			ultimo momento
 		</p>
 		<p>
-			<input type="radio" name="opcion" value="4"> Estudio todo
+			<input type="radio" name="4" value="4"> Estudio todo
 			lo posible
 		</p>
 		<br>
@@ -46,6 +46,7 @@
 		String frase = (request.getAttribute("frase") != null) ? (String) request.getAttribute("frase") : "";
 		%>
 		<%=frase %>
+		<p style="color:red;"><%=frase %></p>
 		<%} %>
 	</form>
 </body>

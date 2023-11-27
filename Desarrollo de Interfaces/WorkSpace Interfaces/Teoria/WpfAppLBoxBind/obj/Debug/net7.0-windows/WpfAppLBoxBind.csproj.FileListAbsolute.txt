@@ -1,0 +1,57 @@
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\MainWindow.g.cs
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\App.g.cs
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind_MarkupCompile.cache
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind_MarkupCompile.lref
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WindowDetalle.g.cs
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.exe
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.deps.json
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.runtimeconfig.json
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.dll
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.pdb
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\MainWindow.baml
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WindowDetalle.baml
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.g.resources
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.GeneratedMSBuildEditorConfig.editorconfig
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.AssemblyInfoInputs.cache
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.AssemblyInfo.cs
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.csproj.CoreCompileInputs.cache
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.dll
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\refint\WpfAppLBoxBind.dll
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.pdb
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.genruntimeconfig.cache
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\ref\WpfAppLBoxBind.dll
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\1.jpg
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\2.png
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\3.jpg
+G:\sources\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\4.png
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind_Content.g.cs
+G:\sources\WpfAppLBoxBind\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\1.jpg
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\2.png
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\3.jpg
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\caricaturas\4.png
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.exe
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.deps.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.runtimeconfig.json
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\bin\Debug\net7.0-windows\WpfAppLBoxBind.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.csproj.AssemblyReference.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WindowDetalle.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind_Content.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind_MarkupCompile.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind_MarkupCompile.lref
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WindowDetalle.baml
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.g.resources
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.AssemblyInfoInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.AssemblyInfo.cs
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.csproj.CoreCompileInputs.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\refint\WpfAppLBoxBind.dll
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.pdb
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\WpfAppLBoxBind.genruntimeconfig.cache
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Teoria\WpfAppLBoxBind\obj\Debug\net7.0-windows\ref\WpfAppLBoxBind.dll

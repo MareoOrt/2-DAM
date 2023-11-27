@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+7VuLEFtQHeWwOB7onGiDv/DctB/yT82gj+YKQBM9HrGQWu8AOXMB2u+Aved+S2TMjz6Spt5GjFztQkM6EQFVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Teoria\\WpfAppLViewPersonajes\\WpfAppLViewPersonajes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ortsanma\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

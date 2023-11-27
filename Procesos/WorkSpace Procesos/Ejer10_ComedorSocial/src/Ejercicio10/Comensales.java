@@ -17,12 +17,13 @@ public class Comensales extends Thread {
 		// TODO Auto-generated method stub
 		super.run();
 
-		if (mesa.isComida()) {
-			System.out.println("Soy " + getName() + " y ya comi");
+		//if (mesa.isComida()) {
+			
 			mesa.alguienCome();
-			comido = true;
-		}
+			System.out.println("Soy " + getName() + " y ya comi");
+			//comido = true;
+		//}
 
-		System.out.println("Me voy lleno");
+		//System.out.println("Me voy lleno");
 	}
 }

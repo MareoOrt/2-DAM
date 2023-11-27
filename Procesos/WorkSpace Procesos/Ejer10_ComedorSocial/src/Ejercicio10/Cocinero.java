@@ -15,7 +15,7 @@ public class Cocinero extends Thread {
 		super.run();
 
 		for (int i = 0; i < 100; i++) {
-			if (!mesa.isComida()) {
+			// if (!mesa.isComida()) {
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
@@ -24,8 +24,9 @@ public class Cocinero extends Thread {
 				}
 				System.out.println("Marchando un nuevo plato");
 				mesa.cocineroSirve();
-			}
+			//}
 		}
+		mesa.noHayComida();
 		System.out.println("No cocino mas");
 	}
 

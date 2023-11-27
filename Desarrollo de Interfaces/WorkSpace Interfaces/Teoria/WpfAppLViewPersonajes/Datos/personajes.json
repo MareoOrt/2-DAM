@@ -1,0 +1,24 @@
+﻿{
+  "personaje": [
+    {
+      "nombre": "Vicente del Bosque",
+      "puesto": "Entrenador",
+      "foto": "Imagenes/DelBosque.png"
+    },
+    {
+      "nombre": "Fernando Torres",
+      "puesto": "Delantero",
+      "foto": "Imagenes/FernandoT.png"
+    },
+    {
+      "nombre": "Sergio Ramos",
+      "puesto": "Defensa",
+      "foto": "Imagenes/SergioR.png"
+    },
+    {
+      "nombre": "Xavi Hernández",
+      "puesto": "Central",
+      "foto": "Imagenes/XaviH.png"
+    }
+  ]
+}
