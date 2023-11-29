@@ -32,7 +32,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="ejericicio7_NotifyWait2.CadNumero"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
     <fullyQualifiedTypeName name="java.nio.channels.NotYetBoundException"/>
@@ -48,4 +47,5 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="Ejercicio10.Cocinero"/>
     <fullyQualifiedTypeName name="Ejercicio10.Comensales"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -28,12 +28,17 @@ class MainActivity : AppCompatActivity() {
 
             val intent = Intent(this,MainActivity2::class.java)
             var bundle: Bundle= Bundle()
-            bundle.putSerializable("dato", Dato(binding.tilEtDato.text.toString()))
+            // bundle.putSerializable("dato", Dato(binding.tilEtDato.text.toString()))
+            bundle.putParcelable("dato", Dato(binding.tilEtDato.text.toString()))
 
             intent.putExtra("dato", bundle)
             Log.d("Depurando", "Iniciamos setOnClickListener")
 
             startActivity(intent)
+        }
+
+        binding.bIniciarForresault.setOnClickListener {
+
         }
     }
 
