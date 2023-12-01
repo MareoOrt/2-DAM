@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Ejem16_Activities</string>
+    <string-array name="array_spinner">
+        <item>Seleccione un elemento ...</item>
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
 </resources>

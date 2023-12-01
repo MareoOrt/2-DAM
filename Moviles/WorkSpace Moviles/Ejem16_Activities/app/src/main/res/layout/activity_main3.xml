@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <Spinner
+        android:id="@+id/dato_devuelto"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_spinner"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/bt_devolver_dato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/bt_devolver_dato"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dato_devuelto" />
 </androidx.constraintlayout.widget.ConstraintLayout>

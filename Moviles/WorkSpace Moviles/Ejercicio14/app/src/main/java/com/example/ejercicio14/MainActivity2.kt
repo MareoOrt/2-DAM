@@ -19,10 +19,11 @@ class MainActivity2 : AppCompatActivity() {
         }
 
         binding.btFinalizar.setOnClickListener {
-            var intent = Intent(this, MainActivity::class.java)
             val c = contador.toString()
-            intent.extras?.putString("pulsaciones", c)
-            startActivity(intent)
+
+            intent.putExtra("contador", c)
+            setResult(RESULT_OK, intent)
+            finish()
         }
     }
 }
