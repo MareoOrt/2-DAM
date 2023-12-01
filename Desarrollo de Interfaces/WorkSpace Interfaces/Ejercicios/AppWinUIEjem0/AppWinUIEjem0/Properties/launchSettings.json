@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AppWinUIEjem0 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AppWinUIEjem0 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
