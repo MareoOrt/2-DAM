@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rd_psoe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PSOE" />
+        <RadioButton
+            android:id="@+id/rd_podemos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Podemos" />
+        <RadioButton
+            android:id="@+id/rd_ui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI" />
+        <RadioButton
+            android:id="@+id/rd_pp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PP" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_votacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btVotar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+</androidx.constraintlayout.widget.ConstraintLayout>

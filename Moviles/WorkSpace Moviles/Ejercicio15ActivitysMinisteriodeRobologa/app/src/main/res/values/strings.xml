@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ejercicio 15. Activitys – Ministerio de Robología</string>
+    <string name="btVotar">Votar</string>
+    <string name="btCambiar">Cambiar idioma</string>
+</resources>

@@ -1,0 +1,1 @@
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\MauiAppEjem1\MauiAppEjem1\MauiAppEjem1.csproj;x64

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEjem1.MainPage">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Background" Value="Gray"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Hello" 
+                   HorizontalOptions="Center" 
+                   MinimumHeightRequest="100" 
+                   VerticalTextAlignment="Center"/>
+            <Label Text="Start" 
+                   HorizontalOptions="Start" 
+                   VerticalOptions="Center" 
+                   FontSize="Medium"/>
+            <Label Text="Center" 
+                   HorizontalOptions="Center" 
+                   Padding="5" 
+                   FontSize="Caption"/>
+            <Label Text="End" 
+                   HorizontalOptions="End" 
+                   Padding="5" 
+                   FontSize="Caption"/>
+            <Label Text="Fill" 
+                   HorizontalOptions="Fill" 
+                   HorizontalTextAlignment="Start" 
+                   Padding="5" 
+                   FontSize="Caption"/>
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
