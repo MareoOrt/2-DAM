@@ -9,6 +9,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.ListAdapter
 import com.example.ejercicio15activitysministerioderobologa.databinding.ActivityMainBinding
 import java.util.Locale
 
@@ -62,6 +63,11 @@ class MainActivity : AppCompatActivity() {
         votos.put("UI", 0)
         votos.put("PP", 0)
 
+        adapter = ArrayAdapter(
+            this,
+            R.layout.support_simple_spinner_dropdown_item,
+            resources.getStringArray(R.array.atoms)
+        ) as ListAdapter
         binding.listaVotos.adapter(this, votos) as AdapterView
     }
 }

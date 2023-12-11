@@ -8,6 +8,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\ActividadManejoFicheros2"/>
+			<item value="C:\Users\mario\OneDrive\Documentos\AD_T2-MANEJO-DE-FICHEROS\ActividadManejoFicheros"/>
+			<item value="C:\Users\mario\OneDrive\Documentos\AD_T2-MANEJO-DE-FICHEROS\AplicacionFicheros"/>
 			<item value="C:\Users\ortsanma\Downloads\web-app-jsp4"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\AD_JEE_VIII_APP_JEE_ESTADISTICA"/>
 			<item value="C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD"/>

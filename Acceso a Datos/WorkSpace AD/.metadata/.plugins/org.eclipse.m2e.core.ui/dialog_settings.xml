@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\mario\Downloads\web-app-jsp4\web-app-jsp4"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\AD_EJERVI_EVENTOS_FILTROS\src\main\java\ejercicio2\Ej2Filtro.java"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\Teoria\src\main\webapp\ejemplo15\Ejemplo15.jsp"/>
 			<item value="C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\Teoria\src\main\java\EjemConcurrencias\EjemConcurrencias.java"/>
@@ -31,10 +32,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.gf.Ejemplos"/>
 		</list>
 		<list key="groupId">
+			<item value="com.gf"/>
 		</list>
 		<list key="artifactId">
+			<item value="Ejemplos"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
