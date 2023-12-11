@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp00.MainPage">
+
+    <VerticalStackLayout>
+        
+        <!-- Ejemplo de texto -->
+        <Label Text="texto en TextBlock con fondo verde .. o  no"
+               TextColor="White"
+               Background="{StaticResource Gray600}"
+               Padding="0"/>
+
+        <!-- Ejemplo de botón -->
+        <Button Text="Boton 1"
+                Background="{StaticResource Tertiary}"
+                CornerRadius="20" Margin="5">
+            <Button.Shadow>
+                <Shadow Brush="PaleVioletRed" Offset="10,10"/>
+            </Button.Shadow>    
+        </Button>
+
+        <!-- Ejemplo de medidor con Stepper -->
+        <HorizontalStackLayout HorizontalOptions="FillAndExpand"
+                               BackgroundColor="Black"
+                               Padding="20,0">
+            
+            <Stepper x:Name="stepper1"
+                     Maximum="99"
+                     Increment="10"/>
+
+            <Label TextColor="Yellow"
+                   Text="{Binding Source={x:Reference stepper1},
+                        Path=Value, StringFormat='valor={0.00}'}"
+                   VerticalOptions="Center"/>
+            
+        </HorizontalStackLayout>
+
+        <!-- Ejemplo de para cambiar colores al estar activo un switch-->
+        <HorizontalStackLayout HorizontalOptions="Center"
+                               Spacing="50">
+            
+            <Switch x:Name="sw1" IsToggled="False"
+                    OnColor="LightPink" ThumbColor="CadetBlue"/>
+
+            <Ellipse Fill="Gray"
+                     WidthRequest="30" HeightRequest="30"
+                     Stroke="Black" StrokeThickness="7">
+                <Ellipse.Triggers>
+                    <DataTrigger TargetType="Ellipse"
+                                 Binding="{Binding Source={x:Reference sw1}, Path=IsToggled}"
+                                 Value="True">
+                        <Setter Property="Fill"
+                                Value="LightGreen"/>
+                    </DataTrigger>
+                </Ellipse.Triggers>
+            </Ellipse>
+
+        </HorizontalStackLayout>
+
+        <!-- Ejemplo de insertar datos, por ejemplo correo electronico -->
+        <Entry Keyboard="Email" Placeholder="correo electrónico"/>
+
+        <!-- Ejemplo de cuadro de texto -->
+        <Editor IsSpellCheckEnabled="True" 
+                HeightRequest="100" 
+                Background="LightYellow"/>
+
+        <!-- Ejemplo de selector de opciones -->
+        <Picker Title="OPCIONES:" TitleColor="Chocolate">
+            <Picker.Items>
+                <x:String>Elemento 1</x:String>
+                <x:String>Elemento 2</x:String>
+                <x:String>Elemento 3</x:String>
+                <x:String>Elemento 4</x:String>
+                <x:String>Elemento 5</x:String>
+                <x:String>Elemento 6</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <!-- Ejemplo de selector de fecha -->
+        <DatePicker/>
+
+        <!-- Ejemplo de selector de hora -->
+        <TimePicker/>
+
+        <!-- Ejemplo de boton de guardar -->
+        <Button Text="Save"
+                HorizontalOptions="Center" Padding="30,10"
+                CornerRadius="50"
+                ToolTipProperties.Text="Presiona para guardar los datos"/>
+
+        <!-- Cuadro especial con texto e imagen  -->
+        <Border Stroke="Black" StrokeThickness="3" Padding="7">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,0,0,40"/>
+            </Border.StrokeShape>
+            <Grid ColumnDefinitions="*,2" RowDefinitions="*,*">
+                <Image Source="Captura de pantalla.png"
+                       HorizontalOptions="Center"
+                       Grid.ColumnSpan="2"
+                       HeightRequest="100" WidthRequest="100"
+                       Aspect="AspectFill">
+                    <Image.Clip>
+                        <EllipseGeometry 
+                            RadiusY="50" RadiusY="50"
+                            Center="50,50"/>
+                    </Image.Clip>
+                </Image>
+                <VerticalStackLayout Grid.Column="1" />
+                <Label/>
+            </Grid>
+        </Border>
+
+    </VerticalStackLayout>
+
+</ContentPage>
