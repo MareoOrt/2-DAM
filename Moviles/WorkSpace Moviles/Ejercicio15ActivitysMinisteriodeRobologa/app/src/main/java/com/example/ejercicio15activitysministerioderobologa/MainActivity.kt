@@ -11,6 +11,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.ListAdapter
 import com.example.ejercicio15activitysministerioderobologa.databinding.ActivityMainBinding
+import java.security.KeyStore.Entry
+import java.util.ArrayList
 import java.util.Locale
 
 
@@ -18,13 +20,20 @@ class MainActivity : AppCompatActivity() {
 
     var binding = ActivityMainBinding.inflate(layoutInflater)
     var idioma = (Locale.getDefault().language.equals(Locale.ENGLISH.language))
-    var votos = HashMap<String, Number>()
+    var votos = HashMap<String, Int>()
     var resultLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
         if (result.resultCode == Activity.RESULT_OK) {
             val dato = result.data
             val voto = dato?.extras?.getString("voto")
+
+            for (v : Map.Entry<String, Number> in votos){
+                if(v.key == voto){
+                    votos.replace(v.key, (v.value.toInt() + 1))
+                }
+            }
+
         }
     }
 
@@ -34,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         botones()
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        rellenarVotos()
 
     }
 
@@ -42,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             val newConfig = Configuration()
             if(idioma) {
                 newConfig.setLocale(Locale.ENGLISH)
-                idioma = false
+                idioma = true
             }else {
                 newConfig.setLocale(Locale.CANADA)
                 idioma = false
@@ -63,11 +73,12 @@ class MainActivity : AppCompatActivity() {
         votos.put("UI", 0)
         votos.put("PP", 0)
 
-        adapter = ArrayAdapter(
-            this,
-            R.layout.support_simple_spinner_dropdown_item,
-            resources.getStringArray(R.array.atoms)
-        ) as ListAdapter
-        binding.listaVotos.adapter(this, votos) as AdapterView
+        var list = ArrayList<String>()
+
+        for (v : Map.Entry<String, Int> in votos){
+            list.add("${v.key} = ${v.value}")
+        }
+
+        binding.listaVotos.adapter = ArrayAdapter(this, list.size, list)
     }
 }

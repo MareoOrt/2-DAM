@@ -1,0 +1,51 @@
+IA
+if a lo bestia, funciones matematicas
+tipos
+o maquinas reactivas
+camara coche adas no tesla
+o memoria limitada
+IoT
+o  teoria de la mente
+character.ai
+o autoconciencia
+chatgpt, maquinas autonomas
+
+usos
+asistente virtual, negocios, educacion, comercial*, sanidad
+
+v-desv
+(+) automatizacion, reduce error humnano,mas espacio creatividad, mayor precision, toma de decisiones
+(-) dif acceso a los datos, sin datos no ia, falta de profesionales cualificados, por nueva, altos costes
+
+------------------------------------------------------------------------------------------------------
+
+python 3
+pypi
+tensorflow
+redes neuronales, se almacenan en cajas negras
+tensorflow- tenemos neuronas que se unen todas con todas
+capas de entrada son los datos de entrada
+entrada con funciones matematicas
+datos = a1 y a2
+
+f(x)=a1*n+
+
+f(x)=a1*n*n/2
+
+por lo que contra mas datos, mas posibilidades de acertar
+
+epoques son las veces que repitas la operacion para entrenar una ia
+porcentaje ideal para acertar con operaciones matematicas 90%
+porcentaje ideal para acertar con conocimiento 80%
+
+hay abstracciones para no tener que programar esto
+
+funciones
+adam - quedate con las mejores
+relue - cojer anteriores
+maxoff - elimine las que no son correctas
+
+la ia trabaja siempre con numeros
+spacy lenguaje natural chatbot
+
+numeros, lenguaje 
