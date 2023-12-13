@@ -19,7 +19,7 @@ import org.w3c.dom.NodeList;
 
 import pojos.Candidaturas;
 
-public class LogicXML_DOM {
+public class XML_DOM {
 
 	// Atributos
 	// Fichero xml
@@ -126,7 +126,7 @@ public class LogicXML_DOM {
 
 	// Método para añadir un elemento a la lista
 	public void addList(Candidaturas node) {
-		this.list.add(node);
+		((List<Candidaturas>) this.list).add(node);
 	}
 
 	// Método para añadir un elemento en el archivo
@@ -190,7 +190,7 @@ public class LogicXML_DOM {
 
 	// Getters
 	public List<Candidaturas> getList() {
-		return list;
+		return (List<Candidaturas>) list;
 	}
 
 	public String getErrorMessage() {

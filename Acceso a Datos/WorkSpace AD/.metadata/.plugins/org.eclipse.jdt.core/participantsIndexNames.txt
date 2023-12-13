@@ -1,5 +1,3 @@
 INDEX VERSION 1.134
-C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\878115765.index
-\Ejemplos\src\main\java
-C:\Users\mario\OneDrive\Documentos\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2885646317.index
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2885646317.index
 \ActividadManejoFicheros\src\main\java
