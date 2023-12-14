@@ -29,7 +29,7 @@ public class LogicXML_DOM {
 	private Document doc;
 
 	// Lista de cadenas con cada candidatura
-	private List<Candidaturas> list;
+	private List<Candidatura> list;
 	// Lista de nodos candidaturas
 	private NodeList nList;
 

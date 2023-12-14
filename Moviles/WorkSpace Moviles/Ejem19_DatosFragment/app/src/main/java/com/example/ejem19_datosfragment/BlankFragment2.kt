@@ -34,7 +34,12 @@ class BlankFragment2 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentBlank2Binding.inflate(layoutInflater)
-        binding.tvDatoFragment.text = param1
+
+        parentFragmentManager.setFragmentResultListener("datoBundleResult", this){
+            requestKey, bundle ->
+            binding.tvDatoFragment.text = bundle.getString("datoBundle")
+        }
+
         return binding.root
     }
 

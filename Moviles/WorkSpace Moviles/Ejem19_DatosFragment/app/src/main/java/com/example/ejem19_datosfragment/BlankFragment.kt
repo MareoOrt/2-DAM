@@ -36,6 +36,12 @@ class BlankFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentBlankBinding.inflate(layoutInflater)
+        // var datoBundle = Bundle()
+        //datoBundle.putString("datoBundle", binding.tvDatoFragment.text.toString())
+
+        parentFragmentManager.setFragmentResult("envioDato", Bundle().apply {
+            putString("datoBundle", binding.tvDatoFragment.text.toString())
+        })
         binding.tvDatoFragment.text = param1
         return binding.root
     }

@@ -57,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\Captura de pantalla.png" />
+	  <None Remove="Resources\Images\captura.png" />
 	</ItemGroup>
 
 	<ItemGroup>

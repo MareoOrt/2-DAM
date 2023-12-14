@@ -199,6 +199,9 @@
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\MauiApp00\MauiApp00\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\MauiApp00\MauiApp00\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\captura.scale-100.png">
+      <PackagePath>captura.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\Ejercicios\MauiApp00\MauiApp00\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>

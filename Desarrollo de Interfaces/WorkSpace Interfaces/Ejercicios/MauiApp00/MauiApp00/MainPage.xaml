@@ -96,14 +96,14 @@
                 <RoundRectangle CornerRadius="40,0,0,40"/>
             </Border.StrokeShape>
             <Grid ColumnDefinitions="*,2" RowDefinitions="*,*">
-                <Image Source="Captura de pantalla.png"
+                <Image Source="captura.png"
                        HorizontalOptions="Center"
                        Grid.ColumnSpan="2"
                        HeightRequest="100" WidthRequest="100"
                        Aspect="AspectFill">
                     <Image.Clip>
                         <EllipseGeometry 
-                            RadiusY="50" RadiusY="50"
+                            RadiusX="50" RadiusY="50"
                             Center="50,50"/>
                     </Image.Clip>
                 </Image>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppEj2Restaurante.MainPage">
+    <Grid RowDefinitions="30* ,70*"
+      BackgroundColor="#FFFFE0">
+        <Grid RowDefinitions="20* ,80*"
+        BackgroundColor="#1E90FF"
+        Grid.Row="0"
+        Padding="0">
+            <Label Text="TIA MANOLIA"
+               Grid.Row="0"
+           TextColor="White"
+           FontSize="Medium"
+           Padding="0"
+           HorizontalTextAlignment="Center"/>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Rectangle Grid.Row="1" Fill="White" />
+                <Image Source="dotnet_bot.png"
+                   Grid.Row="0"
+                   Grid.RowSpan="2"
+                   HorizontalOptions="Center"
+                   HeightRequest="100" WidthRequest="100"
+                   Aspect="AspectFill">
+                    <Image.Clip>
+                        <EllipseGeometry 
+                    RadiusX="50" RadiusY="50"
+                    Center="50,50">
+                            <
+                        </EllipseGeometry>
+                        
+                    </Image.Clip>
+                </Image>
+            </Grid>
+        </Grid>
+
+        <VerticalStackLayout 
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            BackgroundColor="White"
+            Grid.Row="1">
+            <Label Text="Restaurante Tía Manolia"
+               TextColor="Gray"
+               Padding="0"
+               FontSize="Small"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontAttributes="Bold"/>
+            <Label Text="Desayunos &amp; Meriendas &#x0a;"
+               TextColor="Gray"
+               Padding="0"
+               FontSize="Small"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontAttributes="Italic"/>
+            <Label Text="Calle Páramo, 64 &#x0a; Medina de Rioseco &#x0a; Valladolid"
+               TextColor="Gray"
+               Padding="0"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>
