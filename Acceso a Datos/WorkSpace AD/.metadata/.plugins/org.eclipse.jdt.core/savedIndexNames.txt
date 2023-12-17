@@ -1,6 +1,0 @@
-INDEX VERSION 1.134+C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\WorkSpace AD\.metadata\.plugins\org.eclipse.jdt.core
-2481862200.index
-277761193.index
-2253498020.index
-1865797976.index
-3397313445.index
