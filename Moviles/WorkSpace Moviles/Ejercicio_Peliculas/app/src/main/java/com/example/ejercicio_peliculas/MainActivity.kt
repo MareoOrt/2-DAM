@@ -14,7 +14,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.rvPeliculas.layoutManager = LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false)
+        binding.rvPeliculas.layoutManager = LinearLayoutManager(
+            this,LinearLayoutManager.HORIZONTAL,
+            false)
 
         binding.rvPeliculas.adapter = MovieAdapter(Movies.datos)
 
