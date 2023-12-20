@@ -25,14 +25,13 @@
                    Grid.RowSpan="2"
                    HorizontalOptions="Center"
                    HeightRequest="100" WidthRequest="100"
-                   Aspect="AspectFill">
-                    <Image.Clip>
+                   Aspect="AspectFill"
+                   BackgroundColor="#FFFFE0">
+                    <Image.Clip >
                         <EllipseGeometry 
                     RadiusX="50" RadiusY="50"
                     Center="50,50">
-                            <
                         </EllipseGeometry>
-                        
                     </Image.Clip>
                 </Image>
             </Grid>

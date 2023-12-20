@@ -1,0 +1,1 @@
+C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj2Restaurante\MauiAppEj2Restaurante\MauiAppEj2Restaurante.csproj;x64

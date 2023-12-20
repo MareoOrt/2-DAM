@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppPreferenEj1.MainPage">
+
+    <Grid ColumnDefinitions="4" HorizontalOptions="Center">
+        <Label Grid.Row="0" Text="Registro" FontAttributes="Bold"/>
+        <Entry Grid.Row="1" Keyboard="Text" Placeholder="Intruzca el nombre ..."/>
+        <Entry Grid.Row="2" Keyboard="Text" IsPassword="True" Placeholder="Intruzca la contraseña ..."/>
+        <Button Grid.Row="3" Text="Iniciar Sesión" />
+        <Button Grid.Row="3" Text="crear cuenta" />
+    </Grid>
+
+</ContentPage>

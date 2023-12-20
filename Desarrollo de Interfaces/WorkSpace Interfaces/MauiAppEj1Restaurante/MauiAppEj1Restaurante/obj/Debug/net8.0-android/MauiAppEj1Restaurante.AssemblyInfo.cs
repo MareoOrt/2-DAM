@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiAppEj1Restaurante")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+97ad2d7f4667ee7b895dedbab3cbc30474983de5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiAppEj1Restaurante")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiAppEj1Restaurante")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

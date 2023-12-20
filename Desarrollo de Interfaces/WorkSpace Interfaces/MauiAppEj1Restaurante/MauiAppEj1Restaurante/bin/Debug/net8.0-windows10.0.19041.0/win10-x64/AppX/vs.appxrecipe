@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-14T10:25:50.473</Modified>
+      <Modified>2023-12-18T08:22:53.679</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-14T08:30:23.497</Modified>
+      <Modified>2023-12-18T08:22:53.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppEj1Restaurante.runtimeconfig.json">
       <PackagePath>MauiAppEj1Restaurante.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppEj1Restaurante.dll">
       <PackagePath>MauiAppEj1Restaurante.dll</PackagePath>
-      <Modified>2023-12-14T10:25:49.477</Modified>
+      <Modified>2023-12-18T08:22:51.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiAppEj1Restaurante.exe</PackagePath>
-      <Modified>2023-12-14T10:25:49.494</Modified>
+      <Modified>2023-12-18T08:22:51.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\Documents\GitHub\2-DAM\Desarrollo de Interfaces\WorkSpace Interfaces\MauiAppEj1Restaurante\MauiAppEj1Restaurante\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiAppEj1Restaurante.deps.json">
       <PackagePath>MauiAppEj1Restaurante.deps.json</PackagePath>
-      <Modified>2023-12-14T08:30:23.165</Modified>
+      <Modified>2023-12-18T08:22:53.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ortsanma\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

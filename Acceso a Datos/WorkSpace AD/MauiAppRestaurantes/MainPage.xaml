@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiAppRestaurantes"
+             x:Name="mp"
+             x:Class="MauiAppRestaurantes.MainPage">
+
+    <ContentPage.BindingContext>
+        <local:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style x:Key="botonSiguiente" TargetType="Button">
+            <Setter Property="WidthRequest" Value="50"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="BackgroundColor" Value="DodgerBlue"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="Opacity" Value="0.5"/>
+
+        </Style>
+    </ContentPage.Resources>
+    <Grid>
+    <StackLayout BindingContext="{Binding currentRestaurante}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition />
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <BoxView BackgroundColor="DodgerBlue" 
+                     Grid.Row="0" Grid.RowSpan="2"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"/>
+            <Frame Grid.Row="1" Grid.RowSpan="2"
+                CornerRadius="100" Padding="0"
+                   HeightRequest="200"
+                   WidthRequest="200" BorderColor="Wheat" 
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="Center"
+                   IsClippedToBounds="True">
+                <Image Aspect="AspectFill" 
+                   Source="{Binding Foto}"/>
+            </Frame>
+            <Label Text="{Binding Titulo}" Grid.RowSpan="2"
+                   Margin="20"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontFamily="Consola"
+                   FontSize="Title"/>
+            <!--<Frame Grid.Row="3"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Center"
+                   BorderColor="Gray"  
+                   CornerRadius="5"  
+                   Padding="8">
+                <StackLayout>
+                    <Label Text="{Binding Nombre}" 
+                       HorizontalOptions="Center"
+                       FontSize="Medium"
+                       FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill" />
+                    <Label HorizontalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Desayunos &amp; Meriendas&#10;" 
+                                      FontAttributes="Italic"
+                                      FontSize="Medium" LineHeight="2"/>
+                                <Span Text="Calle del Páramo, 64&#10;"/>
+                                <Span Text="Medina de Rioseco" TextColor="Coral"
+                                      FontAttributes="Bold" LineHeight="2"/>
+                                <Span Text="-(Valladolid)" TextTransform="Uppercase"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+            </Frame>-->
+            <Frame Grid.Row="3" BorderColor="Gray" 
+                   BackgroundColor="{Binding ColorBase}"
+                   Margin="60,20" 
+                   Padding="20" CornerRadius="20">
+                <StackLayout Orientation="Vertical" 
+                     HorizontalOptions="FillAndExpand">
+                    <Label Text="{Binding Nombre}" 
+                       HorizontalOptions="Center"
+                       FontSize="Large"
+                       FontAttributes="Bold"/>
+                    <BoxView Color="Gray"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill" />
+                    <Label Text="{Binding Lema}" 
+                       FontAttributes="Italic"
+                       FontSize="Medium"
+                       HorizontalOptions="Center"/>
+                    <Label Text="{Binding Direccion}"
+                       Margin="0,20,0,0"
+                       HorizontalOptions="Center"/>
+                    <Label Text="{Binding Localidad}"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                    <Label Text="{Binding Provincia}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+    <StackLayout Margin="10,10"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="End"
+                         Orientation="Horizontal">
+        <Button Text="&#10094;" HorizontalOptions="StartAndExpand" FontSize="Large"
+                        Style="{StaticResource botonSiguiente}" 
+                        Command="{Binding AnteriorCommand}"/>
+        <Label Text="{Binding Posicion}" 
+                       TextColor="White"
+                       HorizontalOptions="Center" VerticalOptions="Center" FontSize="Subtitle"/>
+        <Button Text="&#10095;" HorizontalOptions="EndAndExpand" FontSize="Large"
+                        Style="{StaticResource botonSiguiente}" 
+                        Command="{Binding SiguienteCommand}"/>
+    </StackLayout>
+    </Grid>
+</ContentPage>

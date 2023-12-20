@@ -119,4 +119,14 @@
     <servlet-name>ServletEstadistica</servlet-name>
     <url-pattern>/ServletEstadistica</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Ejem_ServletPool</display-name>
+    <servlet-name>Ejem_ServletPool</servlet-name>
+    <servlet-class>Ejem_ServletPool.Ejem_ServletPool</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ejem_ServletPool</servlet-name>
+    <url-pattern>/Ejem_ServletPool</url-pattern>
+  </servlet-mapping>
 </web-app>
