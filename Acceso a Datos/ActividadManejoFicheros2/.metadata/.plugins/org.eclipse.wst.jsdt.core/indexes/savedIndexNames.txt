@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\ortsanma\Documents\GitHub\2-DAM\Acceso a Datos\ActividadManejoFicheros2\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+104848687.index
+905242554.index
+1067094681.index
+4051303467.index
+2212862755.index
+2198066556.index
