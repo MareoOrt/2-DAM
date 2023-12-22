@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OrtunezSanzMario</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombreHint">Inserte nombre</string>
+    <string name="sexo">Sexo</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="add">Añadir</string>
+    <string name="mostrar">Mostrar lista</string>
+    <string name="titulo">Lista</string>
+    <string name="bloqueo">Bloquear boton</string>
+</resources>

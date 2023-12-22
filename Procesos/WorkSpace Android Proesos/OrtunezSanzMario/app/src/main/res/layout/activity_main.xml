@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:text="@string/titulo"
+        android:textColor="#FFFFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/nombre" />
+
+            <EditText
+                android:id="@+id/et_Nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/nombreHint"
+                android:inputType="text"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_sexo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sexo" />
+
+            <RadioGroup
+                android:id="@+id/rg_Sexo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_Hombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hombre" />
+
+                <RadioButton
+                    android:id="@+id/rb_Mujer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mujer" />
+
+            </RadioGroup>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+
+    <ListView
+        android:id="@+id/lv_Users"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollIndicators="end" />
+
+    <ToggleButton
+        android:id="@+id/tbt_Bolqueo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

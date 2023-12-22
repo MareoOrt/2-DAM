@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 //            // la pantalla, ejemplo (edittext)
 //            }
 
-            var process: Thread = Thread({
+            var process: Thread = Thread(Runnable{
                 for (i in 1..10) {
                     gestorInterfaz.post(
                         {

@@ -27,7 +27,7 @@
         android:id="@+id/bt_parar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Parar"
+        android:text="Inciar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
@@ -37,6 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Limpiar"
+        android:enabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt_parar" />
