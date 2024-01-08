@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ejem05TouchListener</string>
+    <string name="layout_superior">Layout Superior</string>
+    <string name="layout_fondo">Layout Fondo</string>
+    <string name="layout_central">Layout Central</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejem04CreandoObjetos</string>
+    <string name="recuperar_datos">Recuperar Datos</string>
+    <string-array name="Ciudades">
+        <item>Madrid</item>
+        <item>Valladolid</item>
+        <item>Burgos</item>
+        <item>León</item>
+        <item>Zamora</item>
+    </string-array>
+
+</resources>

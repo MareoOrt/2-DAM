@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="edad">
+        <item quantity="zero">No has nacido aun</item>
+        <item quantity="one">Tienes %1d año</item>
+        <item quantity="other">Tienes %1d años</item>
+    </plurals>
+</resources>

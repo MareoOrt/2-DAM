@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="persona"
+            type="com.example.ejem07databinding.Usuario" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Inserte Nombre"
+            android:inputType="text"
+            android:text="@{persona.nombre}"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Inserte Password"
+            android:inputType="textPassword"
+            android:text="@{persona.password}"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/et_edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Inserte edad"
+            android:inputType="number"
+            android:text="@{String.valueOf(persona.edad)}"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/b_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
+</layout>

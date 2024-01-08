@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_textoInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comunidad Autónomo:" />
+    <Spinner
+        android:id="@+id/s_comunidadAutonoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad de Nacimiento:" />
+    <Spinner
+        android:id="@+id/s_ciudadNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ciudades"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/s_casado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Casado" />
+
+    <TextView
+        android:id="@+id/tv_seleccionarDeporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un deporte:" />
+
+    <CheckBox
+        android:id="@+id/cb_baloncesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baloncesto" />
+
+    <CheckBox
+        android:id="@+id/cb_futbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Futbol" />
+
+    <CheckBox
+        android:id="@+id/cb_pinpon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pin pon" />
+
+    <TextView
+        android:id="@+id/tv_profesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sector laboral:" />
+
+    <RadioGroup
+        android:id="@+id/rg_profesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/rb_educacion">
+
+        <RadioButton
+            android:id="@+id/rb_educacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Educacion" />
+
+        <RadioButton
+            android:id="@+id/rb_sanidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sanidad" />
+
+        <RadioButton
+            android:id="@+id/rb_sectorServicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicios" />
+
+        <RadioButton
+            android:id="@+id/rb_seguridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seguridad" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b_recuperarTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar datos" />
+
+
+</LinearLayout>

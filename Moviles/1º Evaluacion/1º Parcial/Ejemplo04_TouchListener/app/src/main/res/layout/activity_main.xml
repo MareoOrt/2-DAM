@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8080"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_fondo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/layout_fondo"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/ly_central"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4C7597"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_central"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/layout_central"
+            android:textColor="#212121"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/ly_superiior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E4DA7D"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_superior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/layout_superior"
+                android:textSize="25sp"
+                tools:ignore="Suspicious0dp,VisualLintBounds" />
+
+            <TextView
+                android:id="@+id/tv_coordenadas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejem02_ComponentesBasicos</string>
+    <string-array name="ciudades">
+        <item>Madrid</item>
+        <item>Valladolid</item>
+        <item>Burgos</item>
+        <item>Leon</item>
+        <item>Zamora</item>
+    </string-array>
+</resources>

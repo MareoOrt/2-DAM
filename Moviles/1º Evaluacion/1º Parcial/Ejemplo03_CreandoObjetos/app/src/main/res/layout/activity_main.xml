@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Inserte nombre"
+        android:inputType="text"
+        android:text="Name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad de Nacimiento:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/s_ciudadDeNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Ciudades"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comunidad Autonoma:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/s_comunidadAutonoma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/s_soltero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Casado" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un deporte"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cb_baloncesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baloncesto" />
+
+    <CheckBox
+        android:id="@+id/cb_futbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Futbol" />
+
+    <CheckBox
+        android:id="@+id/cb_pingpong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PingPong" />
+
+    <TextView
+        android:id="@+id/tv_profesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sector laboral"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rg_profesion" >
+
+        <RadioButton
+            android:id="@+id/rb_educacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Educacion" />
+
+        <RadioButton
+            android:id="@+id/rb_sanidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sanidad" />
+
+        <RadioButton
+            android:id="@+id/rb_servicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Servicios" />
+
+        <RadioButton
+            android:id="@+id/rb_seguridad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seguridad" />
+
+        <Button
+            android:id="@+id/b_recuperarTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recuperar_datos" />
+
+        <Spinner
+            android:id="@+id/s_datosUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <Spinner
+            android:id="@+id/s_datosUsuarios2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="32dp" />
+    </RadioGroup>
+
+</LinearLayout>

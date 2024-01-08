@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="opcion1">option1</string>
+    <string name="opcion2">option2</string>
+    <string name="opcion3">option3</string>
+    <string name="opcion4">option4</string>
+    <string name="opcion5">option5</string>
+    <string name="opcion6">option6</string>
+</resources>

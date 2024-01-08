@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nav___FlyoutTbs.MainPage"
+       xmlns:pages="clr-namespace:Nav___FlyoutTbs.Pages">
+
+    <!--#region Menu Lateral-->
+    <!--#region Cabecera-->
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="Black">
+            <Image Source="dotnet_bot.png" />
+        </Grid>
+    </Shell.FlyoutHeader>
+    <!--#endregion-->
+
+    <!--#region Elementos-->
+    <FlyoutItem Title="Pagina 1" Icon="dotnet_bot.png">
+        <ShellContent ContentTemplate="{x:Type pages:Page1}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Pagina 2" Icon="dotnet_bot.png">
+        <ShellContent ContentTemplate="{x:Type pages:Page2}" />
+    </FlyoutItem>
+    <!--#endregion-->
+
+    <!--#region Pie-->
+    <Shell.FlyoutFooter>
+        <Grid>
+            <Image Source="dotnet_bot.png" />
+        </Grid>
+    </Shell.FlyoutFooter>
+    <!--#endregion-->
+    <!--#endregion-->
+
+    <!--#region Menu inferior-->
+    <TabBar>
+        <Tab Title="Adios 1" Icon="dotnet_bot.png">
+            <pages:Page1 />
+        </Tab>
+        <Tab Title="Adios 2" Icon="dotnet_bot.png">
+            <pages:Page2 />
+        </Tab>
+    </TabBar>
+    <!--#endregion-->
+</Shell>

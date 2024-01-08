@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Introduce un nombre"
+        android:ems="10"
+        android:hint="Introduce un nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Introduce tu Edad"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bRecuperar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recuperar datos y saludar" />
+
+    <TextView
+        android:id="@+id/tvSaludar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Saludar" />
+
+    <TextView
+        android:id="@+id/tvCadenaplural"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

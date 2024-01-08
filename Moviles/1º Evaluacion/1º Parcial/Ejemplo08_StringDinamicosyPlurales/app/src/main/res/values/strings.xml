@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejemplo08_StringDinamicosyPlurales</string>
+
+    <!--> El porcentaje indica la posición del parametro
+            s : tipo String
+            d : tipo double
+            f : tipo float<-->
+    <string name="Saludo">Buenos días %1s, se que tienes %2d años</string>
+</resources>

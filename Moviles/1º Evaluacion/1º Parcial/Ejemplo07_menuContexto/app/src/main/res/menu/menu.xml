@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/opcion1" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/opcion2" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/opcion3" />
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/opcion4" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/opcion5" />
+        <item
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="@string/opcion6" />
+    </group>
+</menu>
