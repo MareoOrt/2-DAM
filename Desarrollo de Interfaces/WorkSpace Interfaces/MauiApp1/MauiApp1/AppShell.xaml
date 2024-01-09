@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    Title="MauiApp1">
+
+    <!-- Menú lateral (flyout) -->
+    <FlyoutItem Title="Pagina 1" Icon="dotnet_bot.png">
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pagina 2" Icon="dotnet_bot.png">
+    </FlyoutItem>
+
+    <!-- Cabecera del menú lateral (flyout) -->
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="Black">
+            <Image Source="dotnet_bot.png" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <!-- Pie del menú lateral (flyout) -->
+    <Shell.FlyoutFooter>
+        <Grid BackgroundColor="Black">
+            <Image Source="dotnet_bot.png" />
+        </Grid>
+    </Shell.FlyoutFooter>
+
+    <!-- Menú inferior (tab bar) -->
+    <TabBar>
+        <Tab Title="Adios 1" Icon="dotnet_bot.png">
+        </Tab>
+        <Tab Title="Adios 2" Icon="dotnet_bot.png">
+        </Tab>
+    </TabBar>
+
+</Shell>
+
