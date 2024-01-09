@@ -34,10 +34,10 @@
     <!--#region Menu inferior-->
     <TabBar>
         <Tab Title="Adios 1" Icon="dotnet_bot.png">
-            <pages:Page1 />
+            <pages:Page1/>
         </Tab>
         <Tab Title="Adios 2" Icon="dotnet_bot.png">
-            <pages:Page2 />
+            <pages:Page2/>
         </Tab>
     </TabBar>
     <!--#endregion-->

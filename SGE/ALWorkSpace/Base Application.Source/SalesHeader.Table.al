@@ -831,7 +831,7 @@
         }
         field(46; Comment; Boolean)
         {
-            CalcFormula = Exist ("Sales Comment Line" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Exist("Sales Comment Line" WHERE("Document Type" = FIELD("Document Type"),
                                                             "No." = FIELD("No."),
                                                             "Document Line No." = CONST(0)));
             Caption = 'Comment';
@@ -935,7 +935,7 @@
         }
         field(56; "Recalculate Invoice Disc."; Boolean)
         {
-            CalcFormula = Exist ("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
                                                     "Document No." = FIELD("No."),
                                                     "Recalculate Invoice Disc." = CONST(true)));
             Caption = 'Recalculate Invoice Disc.';
@@ -959,7 +959,7 @@
         {
             AutoFormatExpression = "Currency Code";
             AutoFormatType = 1;
-            CalcFormula = Sum ("Sales Line".Amount WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Sum("Sales Line".Amount WHERE("Document Type" = FIELD("Document Type"),
                                                          "Document No." = FIELD("No.")));
             Caption = 'Amount';
             Editable = false;
@@ -969,7 +969,7 @@
         {
             AutoFormatExpression = "Currency Code";
             AutoFormatType = 1;
-            CalcFormula = Sum ("Sales Line"."Amount Including VAT" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Sum("Sales Line"."Amount Including VAT" WHERE("Document Type" = FIELD("Document Type"),
                                                                          "Document No." = FIELD("No.")));
             Caption = 'Amount Including VAT';
             Editable = false;
@@ -1944,7 +1944,7 @@
         }
         field(166; "Last Email Sent Time"; DateTime)
         {
-            CalcFormula = Max ("O365 Document Sent History"."Created Date-Time" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Max("O365 Document Sent History"."Created Date-Time" WHERE("Document Type" = FIELD("Document Type"),
                                                                                       "Document No." = FIELD("No."),
                                                                                       Posted = CONST(false)));
             Caption = 'Last Email Sent Time';
@@ -1952,7 +1952,7 @@
         }
         field(167; "Last Email Sent Status"; Option)
         {
-            CalcFormula = Lookup ("O365 Document Sent History"."Job Last Status" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Lookup("O365 Document Sent History"."Job Last Status" WHERE("Document Type" = FIELD("Document Type"),
                                                                                        "Document No." = FIELD("No."),
                                                                                        Posted = CONST(false),
                                                                                        "Created Date-Time" = FIELD("Last Email Sent Time")));
@@ -1963,7 +1963,7 @@
         }
         field(168; "Sent as Email"; Boolean)
         {
-            CalcFormula = Exist ("O365 Document Sent History" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Exist("O365 Document Sent History" WHERE("Document Type" = FIELD("Document Type"),
                                                                     "Document No." = FIELD("No."),
                                                                     Posted = CONST(false),
                                                                     "Job Last Status" = CONST(Finished)));
@@ -1972,7 +1972,7 @@
         }
         field(169; "Last Email Notif Cleared"; Boolean)
         {
-            CalcFormula = Lookup ("O365 Document Sent History".NotificationCleared WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Lookup("O365 Document Sent History".NotificationCleared WHERE("Document Type" = FIELD("Document Type"),
                                                                                          "Document No." = FIELD("No."),
                                                                                          Posted = CONST(false),
                                                                                          "Created Date-Time" = FIELD("Last Email Sent Time")));
@@ -2024,7 +2024,7 @@
         }
         field(300; "Amt. Ship. Not Inv. (LCY)"; Decimal)
         {
-            CalcFormula = Sum ("Sales Line"."Shipped Not Invoiced (LCY)" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Sum("Sales Line"."Shipped Not Invoiced (LCY)" WHERE("Document Type" = FIELD("Document Type"),
                                                                                "Document No." = FIELD("No.")));
             Caption = 'Amount Shipped Not Invoiced (LCY) Incl. VAT';
             Editable = false;
@@ -2032,7 +2032,7 @@
         }
         field(301; "Amt. Ship. Not Inv. (LCY) Base"; Decimal)
         {
-            CalcFormula = Sum ("Sales Line"."Shipped Not Inv. (LCY) No VAT" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Sum("Sales Line"."Shipped Not Inv. (LCY) No VAT" WHERE("Document Type" = FIELD("Document Type"),
                                                                                   "Document No." = FIELD("No.")));
             Caption = 'Amount Shipped Not Invoiced (LCY)';
             Editable = false;
@@ -2068,7 +2068,7 @@
         field(1305; "Invoice Discount Amount"; Decimal)
         {
             AutoFormatType = 1;
-            CalcFormula = Sum ("Sales Line"."Inv. Discount Amount" WHERE("Document No." = FIELD("No."),
+            CalcFormula = Sum("Sales Line"."Inv. Discount Amount" WHERE("Document No." = FIELD("No."),
                                                                          "Document Type" = FIELD("Document Type")));
             Caption = 'Invoice Discount Amount';
             Editable = false;
@@ -2076,7 +2076,7 @@
         }
         field(5043; "No. of Archived Versions"; Integer)
         {
-            CalcFormula = Max ("Sales Header Archive"."Version No." WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Max("Sales Header Archive"."Version No." WHERE("Document Type" = FIELD("Document Type"),
                                                                           "No." = FIELD("No."),
                                                                           "Doc. No. Occurrence" = FIELD("Doc. No. Occurrence")));
             Caption = 'No. of Archived Versions';
@@ -2420,7 +2420,7 @@
         field(5751; "Shipped Not Invoiced"; Boolean)
         {
             AccessByPermission = TableData "Sales Shipment Header" = R;
-            CalcFormula = Exist ("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
                                                     "Document No." = FIELD("No."),
                                                     "Qty. Shipped Not Invoiced" = FILTER(<> 0)));
             Caption = 'Shipped Not Invoiced';
@@ -2429,7 +2429,7 @@
         }
         field(5752; "Completely Shipped"; Boolean)
         {
-            CalcFormula = Min ("Sales Line"."Completely Shipped" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Min("Sales Line"."Completely Shipped" WHERE("Document Type" = FIELD("Document Type"),
                                                                        "Document No." = FIELD("No."),
                                                                        Type = FILTER(<> " "),
                                                                        "Location Code" = FIELD("Location Filter")));
@@ -2451,7 +2451,7 @@
         field(5755; Shipped; Boolean)
         {
             AccessByPermission = TableData "Sales Shipment Header" = R;
-            CalcFormula = Exist ("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
                                                     "Document No." = FIELD("No."),
                                                     "Qty. Shipped (Base)" = FILTER(<> 0)));
             Caption = 'Shipped';
@@ -2460,7 +2460,7 @@
         }
         field(5756; "Last Shipment Date"; Date)
         {
-            CalcFormula = Lookup ("Sales Shipment Header"."Shipment Date" WHERE("No." = FIELD("Last Shipping No.")));
+            CalcFormula = Lookup("Sales Shipment Header"."Shipment Date" WHERE("No." = FIELD("Last Shipping No.")));
             Caption = 'Last Shipment Date';
             FieldClass = FlowField;
         }
@@ -2530,7 +2530,7 @@
         field(5795; "Late Order Shipping"; Boolean)
         {
             AccessByPermission = TableData "Sales Shipment Header" = R;
-            CalcFormula = Exist ("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
+            CalcFormula = Exist("Sales Line" WHERE("Document Type" = FIELD("Document Type"),
                                                     "Sell-to Customer No." = FIELD("Sell-to Customer No."),
                                                     "Document No." = FIELD("No."),
                                                     "Shipment Date" = FIELD("Date Filter"),
@@ -3461,7 +3461,7 @@
     begin
         TempSalesCommentLine.SetRange("Document Type", "Document Type");
         TempSalesCommentLine.SetRange("No.", "No.");
-        if TempSalesCommentLine.FindSet() then 
+        if TempSalesCommentLine.FindSet() then
             repeat
                 SalesCommentLine := TempSalesCommentLine;
                 SalesCommentLine.Insert();

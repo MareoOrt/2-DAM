@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\OneDrive\\Documentos\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj": {}
+    "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\OneDrive\\Documentos\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj": {
+    "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\OneDrive\\Documentos\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj",
+        "projectUniqueName": "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj",
         "projectName": "Nav - FlyoutTbs",
-        "projectPath": "C:\\Users\\mario\\OneDrive\\Documentos\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj",
-        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\OneDrive\\Documentos\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\obj\\",
+        "projectPath": "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\Nav - FlyoutTbs.csproj",
+        "packagesPath": "C:\\Users\\ortsanma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ortsanma\\Documents\\GitHub\\2-DAM\\Desarrollo de Interfaces\\WorkSpace Interfaces\\Nav - FlyoutTbs\\Nav - FlyoutTbs\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ortsanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
