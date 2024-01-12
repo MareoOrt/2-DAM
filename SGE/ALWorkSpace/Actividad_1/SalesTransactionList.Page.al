@@ -15,7 +15,7 @@ page 50101 "Sales Transaction"
                 field("Salesperson Code"; Rec."Salesperson Code") { ApplicationArea = All; }
 
                 field(Type; Rec.Type) { ApplicationArea = All; }
-                field("Item No."; Rec."Item No.") { ApplicationArea = All; }
+                field("No."; Rec."No.") { ApplicationArea = All; }
                 field(Amount; Rec.Amount) { ApplicationArea = All; }
             }
         }
