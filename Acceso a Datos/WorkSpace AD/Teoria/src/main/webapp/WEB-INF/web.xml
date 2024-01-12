@@ -129,4 +129,14 @@
     <servlet-name>Ejem_ServletPool</servlet-name>
     <url-pattern>/Ejem_ServletPool</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletGestor</display-name>
+    <servlet-name>ServletGestor</servlet-name>
+    <servlet-class>ejemplo_Connection.ServletGestor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletGestor</servlet-name>
+    <url-pattern>/ServletGestor</url-pattern>
+  </servlet-mapping>
 </web-app>
