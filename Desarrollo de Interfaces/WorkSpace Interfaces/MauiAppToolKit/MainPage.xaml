@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:local="clr-namespace:MauiAppToolKit"
+             x:Class="MauiAppToolKit.MainPage">
+    <ContentPage.Resources>
+        <Style x:Key="InvalidEntryStyle" TargetType="Entry">
+            <Setter Property="TextColor" Value="Red" />
+        </Style>
+        <Style x:Key="ValidEntryStyle" TargetType="Entry">
+            <Setter Property="TextColor" Value="Green" />
+        </Style>
+    </ContentPage.Resources>
+    <VerticalStackLayout Spacing="16" Padding="16" BackgroundColor="LightGoldenrodYellow" >
+        <Entry Keyboard="Email" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False">
+            <Entry.Behaviors>
+                <toolkit:EmailValidationBehavior 
+                InvalidStyle="{StaticResource InvalidEntryStyle}"
+                ValidStyle="{StaticResource ValidEntryStyle}"
+                Flags="ValidateOnValueChanged" />
+            </Entry.Behaviors>
+        </Entry>
+        <Entry Placeholder="Enter a System.Double">
+            <Entry.Behaviors>
+                <local:NumericValidationBehavior />
+            </Entry.Behaviors>
+        </Entry>
+        <Label x:Name="etiqeta" Text="Probar Snackbar">
+            <Label.Behaviors>
+                <toolkit:AnimationBehavior Command="{Binding ComandoEtiqueta}">
+                    <toolkit:AnimationBehavior.AnimationType>
+                        <toolkit:FadeAnimation Opacity="0.1"/>
+                    </toolkit:AnimationBehavior.AnimationType>
+                </toolkit:AnimationBehavior>
+            </Label.Behaviors>
+        </Label>
+        <Button Text="Probar Toast" HorizontalOptions="Start"
+                Command="{Binding ComandoBoton}"/>
+        <Button Text="Popup" HorizontalOptions="Start"
+                Command="{Binding ComandoPopup}"/>
+        <HorizontalStackLayout HorizontalOptions="Start">
+            <toolkit:AvatarView CornerRadius="0, 30, 30, 30" BackgroundColor="OrangeRed"
+                            HeightRequest="100" BorderWidth="3" WidthRequest="100"
+                            ImageSource="saitama2.jpg" Text="OPM" BorderColor="Grey"/>
+            <Label Text="One-Punch Man" HorizontalOptions="Start" VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>

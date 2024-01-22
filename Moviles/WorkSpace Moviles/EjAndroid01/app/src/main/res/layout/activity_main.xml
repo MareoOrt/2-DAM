@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="@color/maincolor">
+
+
+
+    <TextView
+        android:id="@+id/tv_name"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+
+        android:text="@string/nameDef"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toTopOf="@+id/et_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/et_name"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:background="@color/white"
+        android:hint="@string/nameIns"
+        android:inputType="text"
+        android:minHeight="48dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/tv_password"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tv_password"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:textColor="@color/white"
+        android:text="@string/passwordDef"
+
+        app:layout_constraintBottom_toTopOf="@+id/et_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/et_password"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:background="@color/white"
+        android:hint="@string/passwordIns"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+
+        app:layout_constraintBottom_toTopOf="@id/bt_login"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_password"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/bt_login"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+
+        android:backgroundTint="@color/white"
+        android:textColor="@color/maincolor"
+        android:text="@string/buttonLogIn"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password"
+
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ejem28_TabbedActivity" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Ejem28_TabbedActivity" parent="Base.Theme.Ejem28_TabbedActivity" />
+
+    <style name="Theme.Ejem28_TabbedActivity.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Ejem28_TabbedActivity.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Ejem28_TabbedActivity.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

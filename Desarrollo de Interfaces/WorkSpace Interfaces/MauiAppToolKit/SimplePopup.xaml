@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--ContentView XAML-->
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               xmlns:local="clr-namespace:MauiAppToolKit"
+             CanBeDismissedByTappingOutsideOfPopup="False"
+               x:Name="popup"
+             x:Class="MauiAppToolKit.SimplePopup">
+    <VerticalStackLayout>
+        <Label Text="This is a very important message!"/>
+        <Image Source="saitama2.jpg" HeightRequest="150" Aspect="AspectFill">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="1"
+                           Command="{Binding TapGestureRecognizer_Tapped}"
+                           CommandParameter="{x:Reference popup}"/>
+            </Image.GestureRecognizers>
+        </Image>
+        <Button Text="OK" Margin="10" Command="{Binding Button_Clicked}"
+                                      CommandParameter="{x:Reference popup}"/>
+    </VerticalStackLayout>
+</toolkit:Popup>
